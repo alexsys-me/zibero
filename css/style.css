@@ -3855,6 +3855,9 @@ header .superhead .ltr {
 }
 .submenu .main-menu #catalog>li>a {
     position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .submenu .main-menu #catalog>li>a:after {
     position: absolute;
