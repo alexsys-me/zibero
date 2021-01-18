@@ -4335,6 +4335,12 @@ header .superhead .ltr {
 .submenu .main-menu #catalog .sub-fiels a {
     color: #333333;
     font-size: 14px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.submenu .main-menu #catalog .sub-fiels a:hover {
+    color: #4a4d97
 }
 
 .submenu .main-menu .dropdown-trigger:before {
