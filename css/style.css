@@ -7205,9 +7205,8 @@ header+.company-data {
 }
 
 .cardware .add {
-    opacity: 0;
     width: 90%;
-    display: none;
+    display: flex;
     background: #fff;
     margin-left: 10px;
     transition: .2s;
