@@ -3488,7 +3488,7 @@ footer .super-bottom a.user:before {
 }
 
 .cardware .favorit.active:before {
-    content: "\f104";
+    content: "\f100";
     color: #ff3843;
 }
 
