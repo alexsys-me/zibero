@@ -1313,6 +1313,10 @@ input[type=file] {
     background: #5659a7;
 }
 
+.btn.submit.active {
+    background: #aeafbf!important;
+}
+
 .btn.submit:hover {
     text-decoration: none;
     background: #323577;
@@ -1652,7 +1656,6 @@ input[type=file] {
 
 .see .cardware {
     padding-bottom: 10px!important;
-    margin-bottom: 30px!important;
     min-height: 200px;
     max-width: 270px!important;
 }
@@ -1946,10 +1949,9 @@ header .search input.search-field {
     font-style: italic;
     opacity: .5;
     box-sizing: border-box;
-    padding-left: 50px;
+    padding-left: 20px;
     color: #ccc;
     height: 50px;
-    background: url(../images/search.png) no-repeat 0px center;
 }
 
 header .search .select-wrapper {
@@ -2971,11 +2973,17 @@ header .search .select-wrapper .dropdown-content li span {
     transition: all 0.3s linear;
 }
 
+.cardware .btn img,
+.submit img {
+    width: 27px!important;
+    height: 27px!important;
+    margin-top: 6px;
+}
+
 .wrapper h4 {
     font-size: 24px;
     color: #262629;
     padding-bottom: 30px;
-    overflow: hidden;
 }
 
 footer {
@@ -3383,7 +3391,6 @@ footer .super-bottom a.user:before {
 }
 
 .cardware {
-    margin-bottom: 20px;
     padding-bottom: 30px!important;
     text-align: center;
     position: relative;
@@ -3482,7 +3489,7 @@ footer .super-bottom a.user:before {
 
 .cardware .favorit.active:before {
     content: "\f104";
-    color: #f7b1c0;
+    color: #ff3843;
 }
 
 .cardware .minititle {
@@ -3959,6 +3966,7 @@ a.fg>span:before {
 .search-wrap {
     position: relative;
     width: 100%;
+    display: flex;
 }
 
 header .search-result {
@@ -7016,7 +7024,7 @@ header+.company-data {
     line-height: 49px;
     font-size: 46px;
     float: left;
-    margin-top: 3px;
+    margin-top: -6px;
     margin-right: 10px;
     display: inline-block;
     width: 48px;
@@ -7073,6 +7081,10 @@ header+.company-data {
 
 .cardware.bestprice .pre-price {
     color: #fe3843;
+}
+
+.cardware .pre-price {
+    margin-bottom: 10px;
 }
 
 .showcase h4 a {
@@ -7159,8 +7171,7 @@ header+.company-data {
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 0 9px rgba(204, 204, 204, 0.5);
-    margin-top: 15px;
+    /*  box-shadow: 0 0 9px rgba(204, 204, 204, 0.5); */
 }
 
 .cardware:hover {
@@ -7210,7 +7221,6 @@ header+.company-data {
     background: #fff;
     margin-left: 10px;
     transition: .2s;
-    margin-top: 10px;
 }
 
 .cardware .favorit {
