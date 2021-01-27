@@ -46,6 +46,9 @@ $(document).ready(function() {
         // accordion: false
     });
 
+    $('.collapsible').collapsible({
+        accordion: false
+    });
     // SLIDERS ----------------
     $('.slider').carousel({
         indicators: true,
@@ -84,6 +87,16 @@ $(document).ready(function() {
         carouselsee.trigger('owl.next');
         return false;
     });
+    //  ----------------
+    var carouselsee = $(".select-gift");
+    carouselsee.owlCarousel({
+        itemsDesktop: 3,
+        itemsDesktop: [1900, 3],
+        itemsDesktopSmall: [1000, 3],
+        itemsTablet: false,
+        itemsMobile: [375, 2]
+    });
+
 
     //  ----------------
     var carousel = $(".scase1");
