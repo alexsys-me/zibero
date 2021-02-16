@@ -99,6 +99,24 @@ $(document).ready(function() {
 
 
     //  ----------------
+    var carousel = $(".blog-our");
+    carousel.owlCarousel({
+        itemsDesktop: 4,
+        itemsDesktop: [1920, 4],
+        itemsMobile: [480, 2],
+
+    });
+    $('.blog-our-prev').click(function() {
+        carousel.trigger('owl.prev');
+        return false;
+    });
+    $('.blog-our-next').click(function() {
+        carousel.trigger('owl.next');
+        return false;
+    });
+
+    //------------------------------------------
+    //  ----------------
     var carousel = $(".scase1");
     carousel.owlCarousel({
         itemsDesktop: 6,

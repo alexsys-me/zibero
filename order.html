@@ -717,54 +717,87 @@
         </div>
     </div>
     <div class="title-component">
-        <h1>Оформление заказа</h1>
+        <h1>Оформление заказа <span>Выберите вариант доставки, чтобы продолжить</span></h1>
     </div>
     <div class="wrapper component row">
         <div class="s8">
             <div class="construct">
-                <!--<ul class="tabs">
+                <form>
+                    <!--<ul class="tabs">
 					<li class="tab "><a href="#fiz" class="active" >Для физических лиц</a></li>
 					<li class="tab"><a href="#ur">Для юредических лиц</a></li>
 				</ul> -->
-                <div id="fiz" class="col s12">
-                    <form>
-                        <div class="legend">
-                            <div class="data-user">
-                                <h4>Данные получателя <span>Указывайте реальные данные - у вас могут попросить паспорт, прежде чем вручить оплаченный заказ</span></h4>
+                    <div class="col s12">
+                        <ul class="tabs icon-tab">
+                            <li class="tab">
+                                <a href="#devilery-1" class="active"><img src="images/devileri-tabicon-1.svg" alt=""> Пункты выдачи</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#devilery-2"><img src="images/devileri-tabicon-2.svg" alt=""> Магазины</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#devilery-3"><img src="images/devileri-tabicon-3.svg" alt="">Почтовые отделения</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#devilery-4"><img src="images/devileri-tabicon-4.svg" alt="">Поставтоматы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="devilery-1" class="icon-tab-content">
+                        <div class="place-map"><img src="img/temp-map.jpg" alt=""></div>
+                    </div>
+                    <div id="devilery-2" class="icon-tab-content">
+                        <div class="place-map"><img src="img/temp-map.jpg" alt=""></div>
+                    </div>
+                    <div id="devilery-3" class="icon-tab-content">
+                        <div class="place-map"><img src="img/temp-map.jpg" alt=""></div>
+                    </div>
+                    <div id="devilery-4" class="icon-tab-content">
+                        <div class="place-map">
+                            <div class="legend">
+                                <div class="data-user">
+                                    <h4>Данные получателя <span>Указывайте реальные данные - у вас могут попросить паспорт, прежде чем вручить оплаченный заказ</span></h4>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="adres" type="text" class="validate">
+                                    <label for="adres">Населенный пункт</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="home" type="text" class="validate">
+                                    <label for="home">Улица, дом</label>
+                                </div>
+                                <div class="input-field col s2">
+                                    <input id="part" type="text">
+                                    <label for="part">Подъезд </label>
+                                </div>
+                                <div class="input-field col s2">
+                                    <input id="flat" type="text" class="validate">
+                                    <label for="flat">Квартира </label>
+                                </div>
+                                <div class="input-field col s2">
+                                    <input id="domofon" type="text" class="validate">
+                                    <label for="domofon">Домофон</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="name" type="text" class="validate">
+                                    <label for="name">Фамилия имя отчество</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="mail" type="text" class="validate">
+                                    <label for="mail">"Электронная почта</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="phone" type="text" class="validate">
+                                    <label for="phone">Ваш телефон</label>
+                                </div>
                             </div>
-                            <div class="input-field col s12">
-                                <input id="adres" type="text" class="validate">
-                                <label for="adres">Населенный пункт</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="home" type="text" class="validate">
-                                <label for="home">Улица, дом</label>
-                            </div>
-                            <div class="input-field col s2">
-                                <input id="part" type="text">
-                                <label for="part">Подъезд </label>
-                            </div>
-                            <div class="input-field col s2">
-                                <input id="flat" type="text" class="validate">
-                                <label for="flat">Квартира </label>
-                            </div>
-                            <div class="input-field col s2">
-                                <input id="domofon" type="text" class="validate">
-                                <label for="domofon">Домофон</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <input id="name" type="text" class="validate">
-                                <label for="name">Фамилия имя отчество</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <input id="mail" type="text" class="validate">
-                                <label for="mail">"Электронная почта</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <input id="phone" type="text" class="validate">
-                                <label for="phone">Ваш телефон</label>
-                            </div>
+
                         </div>
+                    </div>
+
+                    <div id="fiz" class="col s12">
+
+
                         <div class="legend">
                             <div class="data-user">
                                 <h4>Время и дата доставки</h4>
@@ -817,9 +850,9 @@
                             </p>
                         </div>
                         <button class="btn blue">ДАЛЕЕ </button>
-                    </form>
+                </form>
                 </div>
-                <div id="ur" class="col s12">Test 2</div>
+
             </div>
         </div>
         <div class="s4">

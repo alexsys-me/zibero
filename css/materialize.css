@@ -2473,7 +2473,6 @@ small {
 
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
-    background-color: rgba(246, 178, 181, 0.2);
     outline: none;
 }
 
@@ -3778,6 +3777,10 @@ textarea.materialize-textarea {
     transform: scale(0);
 }
 
+.legend a:hover {
+    text-decoration: none;
+}
+
 
 /* Checked styles */
 
@@ -3797,8 +3800,8 @@ textarea.materialize-textarea {
 }
 
 [type="radio"]:checked+span:after {
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 
