@@ -15,153 +15,133 @@
 </head>
 
 <body>
-    <!-- WINDOW ENTER -->
-    <div id="bonus" class="modal">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <h4>СКИДКА!!!</h4>
-            <div class="timer"><span>07</span>:<span>15</span></div>
-            <p>Если вы оформите заказ в течении 20 минут, то получите дополнительную скидку</p>
-            <a href="#">Применить скидку</a>
-        </div>
-    </div>
-
-
-    <!-- WINDOW ENTER -->
-    <div id="enter" class="modal enterto">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <h4>Войти на сайт</h4>
-            <form>
-                <label>Номер карты:</label>
-                <div class="cardnum"><input type="numeric" maxlength="4" /><input type="numeric" maxlength="4" /><input type="numeric" maxlength="4" /><input type="numeric" maxlength="4" /></div>
-                <label>Пароль:</label>
-                <input type="pasword" />
-                <input type="submit" class="submit" value="ВОЙТИ" />
-                <hr/>
-                <a href="#"> Забыли пароль? </a>
-                <a href="#">Регистрация</a>
-            </form>
-        </div>
-    </div>
-
-    <!-- GIFTS -->
-    <div id="gifts" class="modal ">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <div class="title">Выбрать подарок</div>
-            <form>
-                <div class="row">
-                    <a href="#"><img src="img/gift1.jpg" /></a>
-                    <div class="descriptgift">ВАЗА - МАЛАГА "ТИЦИАНО". ВЫСОТА 20 СМ. <span>692 руб </span></div>
+    <div id="menu-panel" class="sidenav mainmenu">
+        <a href="#!" class="sidenav-close"></a>
+        <div class="citizen"></div>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header"><img src="img/defuser.png" /> <span>Захаров Алексей</span>
+                    <a href="#" class="icon myfavor"></a>
                 </div>
-                <div class="row">
-                    <a href="#"><img src="img/gift2.jpg" /></a>
-                    <div class="descriptgift">ВАЗА - МАЛАГА "ТИЦИАНО". ВЫСОТА 20 СМ. <span>692 руб </span></div>
+                <div class="collapsible-body account">
+                    <a href="#!" class="icon trash">Корзина</a>
+                    <a href="#!" class="icon story">История заказов</a>
+                    <a href="#!" class="icon myfavor">Избранное</a>
+                    <a href="#!" class="icon setting">Редактировать профиль</a>
+                    <a href="#" class="policy">Пользовательское соглашение</a>
                 </div>
-                <div class="row">
-                    <a href="#"><img src="img/gift3.jpg" /></a>
-                    <div class="descriptgift">ВАЗА - МАЛАГА "ТИЦИАНО". ВЫСОТА 20 СМ. <span>692 руб </span></div>
+            </li>
+        </ul>
+        <div class="catalog_menu">
+            <h2>КАТАЛОГ ТОВАРОВ</h2>
+            <div class="accordion-group">
+                <h3 class="accordion-header ">Мебель и интерьер</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <h4 class=" accordion-header">Промышленность </h4>
+                        <div class="accordion-body">
+                            <a href="#">Стройматериалы</a>
+                            <a href="#">Вода, газ и тепло</a>
+                            <a href="#">Авто-мото-велотехника </a>
+                            <a href="#">Мебель и интерьер</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <a href="#"><img src="img/gift4.png" /></a>
-                    <div class="descriptgift">ВАЗА - МАЛАГА "ТИЦИАНО". ВЫСОТА 20 СМ. <span>692 руб </span></div>
+                <h3 class="accordion-header ">Стройматериалы</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
                 </div>
-                <div class="row">
-                    <a href="#"><img src="img/gift1.jpg" /></a>
-                    <div class="descriptgift">ВАЗА - МАЛАГА "ТИЦИАНО". ВЫСОТА 20 СМ. <span>692 руб </span></div>
+                <h3 class="accordion-header ">Авто-мото-велотехника<span>топ100 </span></h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
                 </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- GIFTS -->
-    <div id="city" class="modal ">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <div class="cite-select">
-                <p>Ваша страна </p>
-                <select>
-			<option>Россия</option>
-			<option>Беларусь</option>
-			<option>Украина</option>
-			<option>Казахстан</option>
-			<option>Киргизия</option>
-		</select>
-                <span>Выбрать другую</span>
-            </div>
-            <input type="text" class="search" placeholder="Поиск города">
-            <div class="city-result">
-                <div class="col">Москва</div>
-                <div class="col">Санкт-петербург</div>
-                <div class="col">Санкт-петербург</div>
-                <div class="col">Северо-Западный</div>
-                <div class="col">Брянск</div>
-                <div class="col">Воронеж</div>
-                <div class="col">Сочи</div>
-                <div class="col">Екатеренбург</div>
-                <div class="col">Краснодар</div>
-                <div class="col">Перьм</div>
-                <div class="col">Красноярск</div>
-                <div class="col">Самара</div>
-                <div class="col">Ростов </div>
-                <div class="col">Брянск</div>
-                <div class="col">Воронеж</div>
-                <div class="col">Сочи</div>
-                <div class="col">Екатеренбург</div>
-                <div class="col">Краснодар</div>
-                <div class="col">Перьм</div>
-                <div class="col">Красноярск</div>
-                <div class="col">Самара</div>
-                <div class="col">Ростов </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <!-- ONE CLICK -->
-    <div id="one" class="modal enterto oneclick bas">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <div class="row-table">
-                <div>
-                    <div class="img-wrapper"><img src="img/buket4.jpg" /> </div>
-                    <p><strong> Nike Air Huracate</strong>Куртка утепленаня</p>
-                    <div class="mini-price">
-                        <p>1 500 р</p><span>1700 р</span></div>
-                    </p>
+                <h3 class="accordion-header hot">Авто-мото-велотехника</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
                 </div>
             </div>
-            <form>
-                <input type="text" placeholder="Имя" />
-                <input type="text" placeholder="Телефон" />
-                <input type="text" placeholder="Адрес доставки" />
-                <textarea>Комментарий</textarea>
-                <input type="submit" class="submit" value="БЫСТРЫЙ ЗАКАЗ" />
-            </form>
         </div>
     </div>
-    <!-- WINDOW ADD TO BASKET-->
-    <div id="addb" class="modal bas">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <h4>Добавление в корзину</h4>
-            <div class="row-table">
-                <div>
-                    <div class="img-wrapper"><img src="img/buket4.jpg" /> </div>
-                    <p><strong> Nike Air Huracate</strong>Куртка утепленаня</p>
-                    <div class="mini-price">
-                        <p>1 500 р</p><span>1700 р</span></div>
-                    </p>
+
+    <div id="basket-panel" class="sidenav shoppanel basket">
+        <a href="#!" class="sidenav-close"></a>
+        <ul>
+            <li><img src="img/flower.jpg" />
+                <div class="basket-data">
+                    <div class="mini-title">Алегро</div>
+                    <div class="price">
+                        <div> 2500 <span>руб</span><strong>1 шт</strong></div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row"><a href="#!" class="modal-close text-close">Продолжить покупки</a><a href="#" class="submit add btn ">В корзину</a></div>
-        </div>
+                <div class="fb-price">
+                    <div>2 370 <strong>руб</strong></div>
+                </div>
+            </li>
+            <li><img src="img/flower.jpg" />
+                <div class="basket-data">
+                    <div class="mini-title">Алегро</div>
+                    <div class="price">
+                        <div> 2500 <span>руб</span><strong>1 шт</strong></div>
+                    </div>
+                </div>
+                <div class="fb-price">
+                    <div>2 370 <strong>руб</strong></div>
+                </div>
+            </li>
+            <a href="#" class='btn'>Перейти в корзину</a>
+        </ul>
     </div>
 
-
+    <div id="search-panel" class="sidenav searchpanel">
+        <a href="#!" class="sidenav-close"></a>
+        <input type="text" class="search-field" placeholder="Поиск в каталоге. Например - Роботы-полесосы" />
+        <select>
+        <option>Все разделы</option>
+        <option>Промышленность</option>
+        <option>Стройматериалы</option>
+        <option>Вода, газ, тепло</option>
+        <option>Дом и сад</option>
+        <option>Одежда и обувь</option>
+        <option>Спорт и отдых</option>
+        <option>Здоровье и красота</option>
+        <option>Текстиль и кожа</option>
+        <option>Промышленность</option>
+        <option>Стройматериалы</option>
+        <option>Вода, газ, тепло</option>
+        <option>Дом и сад</option>
+        <option>Одежда и обувь</option>
+        <option>Спорт и отдых</option>
+        <option>Здоровье и красота</option>
+        <option>Текстиль и кожа</option>
+    </select>
+    </div>
     <!-- WINDOW CALLME -->
     <div id="call" class="modal call">
         <div class="modal-content">
@@ -174,217 +154,7 @@
         </div>
     </div>
 
-    <!-- WINDOW CALLME -->
-    <div id="fav" class="modal call">
-        <div class="modal-content">
-            <a href="#!" class="modal-close "></a>
-            <h4>Добавить в избранное</h4>
-            <button class="btn grey modal-close">Нет </button>
-            <button class="btn blue modal-close">Да</button>
-        </div>
-    </div>
-    <!-- CALL WIDJET  -->
-    <a href="#call" class="modal-trigger callto"></a>
 
-    <!-- WINDOW PRESHOP -->
-    <div id="card" class="modal ">
-        <div class="modal-content item-card">
-            <a href="#!" class="modal-close "></a>
-            <div class="left-col">
-                <ul class="tabs pre-tabs">
-                    <li class="tab">
-                        <a class="active" href="#pre1"><img src="img/bigbuket.jpg" /></a>
-                    </li>
-                    <li class="tab">
-                        <a href="#pre2"><img src="img/bigbuket2.jpg" /></a>
-                    </li>
-                    <li class="tab gift">
-                        <a href="#pre4"><img src="img/gift-medvet.jpg" /></a>
-                    </li>
-                </ul>
-                <div class="preview">
-                    <div id="pre1"><img src="img/bigbuket.jpg" /></div>
-                    <div id="pre2"><img src="img/bigbuket2.jpg" /></div>
-                    <div id="pre4">
-                        <a href="#gifts" class="modal-trigger"><img src="img/gift-medvet.jpg" /></a>
-                    </div>
-                    <div class="sizeflower">
-                        <div>
-                            <p class="v">50 см</p>
-                            <p class="h">20 см</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="right-col">
-                <div class="title"><strong>Monster Beat Mixr</strong><span>артикул 234985</span>
-                    <div class="pormo-gift">1000 р в подарок</div>
-                </div>
-                <div class="revies">
-                    <div class="star full"></div>
-                    <div class="star full"></div>
-                    <div class="star full"></div>
-                    <div class="star"></div>
-                    <div class="star"></div> 65 отзывов </div>
-                <div class="setting-product">
-                    <div class="colors-product">
-                        <div class="title-row">Цвет товара</div>
-                        <label>
-						<input name="color" type="radio" checked />
-						<span>Red</span>
-					</label>
-                        <label>
-						<input name="color" type="radio" checked />
-						<span>Red</span>
-					</label>
-                        <label>
-						<input name="color" type="radio" checked />
-						<span>Red</span>
-					</label>
-                        <label>
-						<input name="color" type="radio" checked />
-						<span>Red</span>
-					</label>
-                    </div>
-                    <div class="size-product">
-                        <div class="title-row">Размер <a href="#size" class="modal-trigger">Таблица размеров</a></div>
-                        <label>
-						<input name="size" type="radio" checked />
-						<span>36-37</span>
-					</label>
-                        <label>
-						<input name="size" type="radio" checked />
-						<span>38-39</span>
-					</label>
-                        <label>
-						<input name="size" type="radio" checked />
-						<span>40-41</span>
-					</label>
-                    </div>
-                </div>
-                <div class="info-product">
-                    <div class="row">
-                        <div class="price">
-                            <strong>12 500 р</strong>
-                            <span>13 500</span>
-                            <div class="sklad">в наличии на складе</div>
-                        </div>
-                        <div class="bonus">
-                            <div class="select_advert icon">
-                                <div>
-                                    <span>Товар учавствует в акции(ях)</span>
-                                    <select multiple>
-								  <option value="" selected>Выберите акцию</option>
-								  <option value="1">Скидка 3%</option>
-								  <option value="2">Кэшбэк на пластиковую карту 5%</option>
-								  <option value="3">Кэшбэк на клубную карту 15%</option>
-							</select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="club-card">
-                            <div class="round">10 500 р</div>
-                            <p>Покупка по клубной карте дает выгоду <span>12%</span> или <span>1244</span> руб</p>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <div class="field">
-                            <button>-</button>
-                            <input type="numeric" value="2" />
-                            <button>+</button>
-                        </div>
-                        <a href="#addb" class="modal-trigger add submit btn">Положить в корзину</a>
-                        <a href="#one" class="modal-trigger add btn">Купить в один клик</a>
-                        <a href="#favor" class="modal-trigger favor btn icon"></a>
-                        <a href="#srav" class="modal-trigger add btn icon sravneny"></a>
-                    </div>
-                </div>
-
-                <div class="descript">
-                    <div class="col">
-                        <p><strong>Ваш регион: Москва</strong></p>
-                        <p class="icon dostavka">Доставка 5-6 дней - <strong>бесплатно</strong></p>
-                        <p class="icon place">Самовывоз 12-13 января - <strong>бесплатно</strong></p>
-                        <p class="icon post">По почте 3-7 дней - <strong>поо тарифам почты РФ</strong></p>
-                        <a href="#">Подробнее про условия доставки</a>
-                    </div>
-                    <div class="col info-adres">
-                        <p>Продавец: <a href="#">Triuph Market</a></p>
-                        <span>ООО Триумф Маркет<br/>1234342, г.Москва, Березовая Алея<br/> д.5 А, стр. 1-3 </span>
-                        <a href="#">+7 (988) 404-26-37</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="see">
-                <h6>Вы недавно смотрели</h6>
-                <div class="navigate">
-                    <a href="#" class="js-prev seelater-prev"></a>
-                    <a href="#" class="js-next seelater-next"></a>
-                </div>
-                <div class="seelater">
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/buket5.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/buket2.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/buket3.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/buket4.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/buket1.jpg" /></div>
-                            <span>Букет в корзине цветы 31 шт. композиция корзина орхидеи микс в зелени 40 см</span>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/flower.jpg" /></div>
-                            <span>Георгины белые, ромашки в зелени. Букет георгинов в ромашках 51 шт.</span>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/flower.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                    <div class="carousel-element cardware">
-                        <a href="#" class="carwind">
-                            <div class="img-wrapper"><img src="img/flower.jpg" /></div>
-                            <p>Nike Air Huracate<span>Куртка утепленаня</span></p>
-                            <div class="pre-price">250 000 р <span>1500 р</span></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div>
         <a href="#bonus" class="modal-trigger"><img src="img/topbanner.jpg" /></a>
     </div>
@@ -698,131 +468,432 @@
         </div>
     </header>
 
-    <!--MAIN CONTENT  -->
-    <div class="component row wrapper">
-        <!--COMPONENT  -->
-        <div class="component">
-            <div class="breadcrum">
-                <div class="wrapper">
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Электроника</a></li>
-                        <li><span>Подарок</span></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col  s6">
-                    <div class="gift-frame"><img src="img/mygift.jpg" alt=""></div>
-                    <a href="#addgift" class="modal-trigger addgift ">Добавить открытку (бесплатно)</a>
-                </div>
-                <div class="col s6 send-gift">
-                    <h4>Кому отправить подарок? <span>Напишите данные получателя, что бы его оформить</span></h4>
-                    <form action="" class="whiteform">
-                        <input type="text" placeholder="Имя поулчателя*">
-                        <input type="text" placeholder="Email поулчателя*">
-                        <input type="text" class="phone" placeholder="Телефон поулчателя*">
-                        <textarea name="" id="" cols="30" rows="10">Текст открытки</textarea>
-                        <label>
-                            <input type="checkbox" class="filled-in" checked="checked">
-                            <span>Напомнить об этой дате через год</span>
-                         </label>
-                        <label>
-                            <input type="checkbox" class="filled-in" >
-                            <span>Не сообщать получателю имя заказчика</span>
-                         </label>
-                        <label>
-                            <input type="radio" class="filled-in" >
-                            <span>Не сообщать получателю имя заказчика</span>
-                         </label>
-                        <div class="subchek">
-                            <label>
-                                <input type="checkbox" class="filled-in" >
-                                <span>По телефону, не говорить, что это подарок</span>
-                             </label>
-                            <label>
-                                <input type="checkbox" class="filled-in" >
-                                <span>Бесконтактная доставка <i>По желанию подарок может быть доставлен до двери</i></span>
-                             </label>
-                        </div>
-                        <input type="submit" class="btn blue" value="отправить">
-                    </form>
-                </div>
-
-
-            </div>
-
+    <!-- BANNER -->
+    <div class="banner landheader">
+        <div class="wrapper">
+            <h1>Продавайте больше!<br/><span>Вместе с </span>ZIBERO</h1>
         </div>
-        <!--COMPONENT  END-->
     </div>
+
+    <div class="counting">
+        <div class="wrapper">
+            <h4>Торговая площадка Zibero.ru — это:</h4>
+            <div class="col">
+                <div class="count">117 128</div>
+                <span> уникальных пользователей </span>
+                <p> Они просмотрели <strong> 2 156 814 </strong>товаров, оставили 70 отзывов на магазины и 67 на товары.<a href="#">Полная статистика сайта.</a></p>
+            </div>
+            <div class="col">
+                <div class="count">857 268</div>
+                <span> актуальных товаров в каталоге</span>
+                <p>У каждого есть фото и характеристики. Вчера мы добавили 334 новых. Старые убираем и цифры не «раздуваем».</p>
+            </div>
+            <div class="col">
+                <div class="count">586</div>
+                <span> разделов каталога </span>
+                <p>Каждую неделю добавляем новые. Если вы не нашли нужный — пришлите нам заявку.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gotocatalog">
+        <div class="wrapper">
+            <a href="#" class="btn">Подключиться к каталогу</a>
+            <div><strong>Более 1000 магазинов </strong>уже продают свои товары в нашем каталоге<br/> <a href="#">Тарифы на размещение в каталоге.</a></div>
+        </div>
+    </div>
+
+    <div class="betters">
+        <div class="wrapper">
+            <h4>Преимущества работы с нами</h4>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-1.png" />Простота</br> подключения</div>
+                <p>Проконсультируем по телефону, в нашем офисе или приедем к вам и поможем подключиться к каталогу.</p>
+            </div>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-2.png" />Высокое качество </br>обслуживания</div>
+                <p>Вы можете задать менеджеру любой вопрос — даже в воскресенье или праздничный день</p>
+            </div>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-3.png" />Забота об</br> имидже</div>
+                <p>Сотрудничаем только с ответственными продавцами и разрываем договор с теми, кто постоянно обманывает клиентов.</p>
+            </div>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-4.png" />Гибкое</br> ценообразование</div>
+                <p>Вы платите только за те категории, в которых продаёте, также мы предлагаем выгодные пакеты.</p>
+            </div>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-5.png" />Прозрачность </br>расходов</div>
+                <p>В любой момент вы можете получить подробный и полный финансовый отчёт</p>
+            </div>
+            <div class="col">
+                <div class="title"><img src="img/icon-bett-6.png" />Скидки на </br>размещение</div>
+                <p>Клиентам каталога предоставляем скидки на размещение платных объявлений </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="premium">
+        <div class="wrapper">
+            <h3>Получите Premium статус для вашей компании, оставив заявку до 15 декабря</h3>
+            <p>*размещения логотипа вашей компании в рекламных блоках на главной странице и помощь в загрузке товарных групп.</p>
+            <form>
+                <input type="text" placeholder="Название компании" />
+                <input type="text" placeholder="Ваше имя" />
+                <input type="text" placeholder="Телефон" class="phone" />
+                <input type="submit" value="ПОДКЛЮЧИТЕ МЕНЯ" />
+            </form>
+        </div>
+    </div>
+
+    <div class="our_geo ">
+        <div class="wrapper">
+            <h2 class="subtitle">Наша география</h2>
+            <div class="navigate">
+                <a href="#" class="js-prev scase1-prev"></a>
+                <a href="#" class="js-next scase1-next"></a>
+            </div>
+            <div class="seelater ">
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Белорусь </p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/russ.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/russ.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/russ.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/russ.png" />
+                    <p>Россия</p>
+                </div>
+                <div class="carousel-element">
+                    <img src="img/belarus.png" />
+                    <p>Россия</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our_better ">
+        <div class="wrapper">
+            <h2 class="subtitle">Наши преимущества</h2>
+            <div class="our_better_wrapper">
+                <div class="our_better_item">
+                    <div class="our_better_img">
+                        <img src="images/better_img-1.jpg" />
+                        <p>Быстрая и бесплатная доставка</p>
+                    </div>
+                    <h4>Более 80%</h4>
+                    <p>Доставляеться на следующий день</p>
+                </div>
+                <div class="our_better_item">
+                    <div class="our_better_img">
+                        <img src="images/better_img-2.jpg" />
+                        <p>Скидки и акции</p>
+                    </div>
+                    <h4>до 90%</h4>
+                    <p>скида постоянным покупателям</p>
+                </div>
+                <div class="our_better_item">
+                    <div class="our_better_img">
+                        <img src="images/better_img-3.jpg" />
+                        <p>Удобный пункт выдачи</p>
+                    </div>
+                    <h4>35 тыс</h4>
+                    <p>пунктов выдачи</p>
+                </div>
+                <div class="our_better_item">
+                    <div class="our_better_img">
+                        <img src="images/better_img-4.jpg" />
+                        <p>Широкий ассортимент</p>
+                    </div>
+                    <h4>2 млн+</h4>
+                    <p>товаров на складе</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popular">
+        <div class="wrapper">
+            <h3>ПОПУЛЯРНЫЕ РАЗДЕЛЫ</h3>
+            <div class="populartovar">
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Компьютерная техника</p>
+                        <div class="img-wrapper"><img src="img/cat-1.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Спорт и отдых</p>
+                        <div class="img-wrapper"><img src="img/cat-2.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Автотовары</p>
+                        <div class="img-wrapper"><img src="img/cat-3.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Товары для животных</p>
+                        <div class="img-wrapper"><img src="img/cat-4.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Одежда</p>
+                        <div class="img-wrapper"><img src="img/cat-5.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Строительство и ремонт</p>
+                        <div class="img-wrapper"><img src="img/cat-6.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Бытовая техника</p>
+                        <div class="img-wrapper"><img src="img/cat-7.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Канцтовары</p>
+                        <div class="img-wrapper"><img src="img/cat-8.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Компьютерная техника</p>
+                        <div class="img-wrapper"><img src="img/cat-1.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Спорт и отдых</p>
+                        <div class="img-wrapper"><img src="img/cat-2.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Автотовары</p>
+                        <div class="img-wrapper"><img src="img/cat-3.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Товары для животных</p>
+                        <div class="img-wrapper"><img src="img/cat-4.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Одежда</p>
+                        <div class="img-wrapper"><img src="img/cat-5.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Строительство и ремонт</p>
+                        <div class="img-wrapper"><img src="img/cat-6.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Бытовая техника</p>
+                        <div class="img-wrapper"><img src="img/cat-7.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Канцтовары</p>
+                        <div class="img-wrapper"><img src="img/cat-8.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Компьютерная техника</p>
+                        <div class="img-wrapper"><img src="img/cat-1.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Спорт и отдых</p>
+                        <div class="img-wrapper"><img src="img/cat-2.jpg" /></div>
+                    </a>
+                </div>
+                <div class="carousel-element category">
+                    <a href="#card">
+                        <p>Автотовары</p>
+                        <div class="img-wrapper"><img src="img/cat-3.jpg" /></div>
+                    </a>
+                </div>
+            </div>
+            <p>.. и еще более 450 разделов на сайте </p>
+        </div>
+    </div>
+
+
+    <div class="grafbg">
+        <div class="wrapper">
+            <div class="faq">
+                <h3>Ответы на популярные вопросы</h3>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header">Что вам дает Zibero.ru?</div>
+                        <div class="collapsible-body">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При
+                            создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                            визуально-слухового восприятия.</div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Нужно ли заключать с нами договор?</div>
+                        <div class="collapsible-body">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При
+                            создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                            визуально-слухового восприятия.</div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">В каталоге могут размещаться только юридические лица?</div>
+                        <div class="collapsible-body">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При
+                            создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                            визуально-слухового восприятия.</div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">В каталоге нет тех товаров, которые я продаю! Нужно ли мне обрабатывать фотографии и добавлять параметры?</div>
+                        <div class="collapsible-body">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При
+                            создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                            визуально-слухового восприятия.</div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Размещение в каталоге Zibero – это дорого?</div>
+                        <div class="collapsible-body">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При
+                            создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                            визуально-слухового восприятия.</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="gotoaction">
+                <div>
+                    <h2>Готовы увеличить продажи?</h2>
+                    <p>Свяжитесь с нашими консультантами. Они ответят на все вопросы, помогут подключиться и начать продавать</p>
+                    <span>Если вы раньше не продавали через интернет — мы расскажем вам о возможностях, условиях, ограничениях и поможем начать.</span>
+                    <a href="#">+7(988) 77-55-080</a>
+                </div>
+                <div class="img-box">
+                    <img src="img/personal.png" />
+                    <div class="data-box">
+                        <p>Дарья Лисовенко</p><span>Специалист по продажам</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- FOTTER  -->
     <footer>
-        <div class="wrapper ">
-            <div class="logo-copy col s3 valign-justify ">
-                <img src="img/logo.png " />
+        <div class="wrapper">
+            <div class="logo-copy col s3 valign-justify">
+                <img src="img/logo.png" />
                 <p>
-                    <a href="tel:+7 (800) 500-9108 ">+7 (800) 500-9108</a>
-                    <span>fiberam@bk.ru</span>
+                    <a href="tel:+7 (800) 500-9108">+7 (800) 500-9108</a>
+                    <span>Телефон горячей линии</span><br>
+                    <img src="img/payment.png" />
                 </p>
             </div>
-            <div class="bottom-menu col s9 ">
-                <div class="col s3 ">
+            <div class="bottom-menu col s9">
+                <div class="col s3">
                     <ul>
                         <span>ИНФОРМАЦИЯ</span>
-                        <li><a href="# ">О магазине</a></li>
-                        <li><a href="# ">Доставка</a></li>
-                        <li><a href="# ">Оплата</a></li>
-                        <li><a href="# ">Контакты</a></li>
-                        <li><a href="# ">Публичная оферта</a></li>
-                        <li><a href="# ">Политика конфиденциальности</a></li>
+                        <li><a href="#">О магазине</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Публичная оферта</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
                     </ul>
                 </div>
-                <div class="col s3 ">
+                <div class="col s3">
                     <ul>
                         <span>СПЕЦ. ПРЕДЛОЖЕНИЯ</span>
-                        <li><a href="# ">Инвесторам</a></li>
-                        <li><a href="# ">Юр. лицам</a></li>
-                        <li><a href="# ">Бренды</a></li>
+                        <li><a href="#">Инвесторам</a></li>
+                        <li><a href="#">Юр. лицам</a></li>
+                        <li><a href="#">Бренды</a></li>
                     </ul>
                     <ul>
                         <span>УСЛУГИ</span>
-                        <li><a href="# ">Юр. лицам</a></li>
+                        <li><a href="#">Юр. лицам</a></li>
                     </ul>
                 </div>
-                <div class="col s3 ">
+                <div class="col s3">
                     <ul>
                         <span>ПОМОЩЬ</span>
-                        <li><a href="# ">Вопросы и ответы</a></li>
-                        <li><a href="# ">Письмо руководителю</a></li>
+                        <li><a href="#">Вопросы и ответы</a></li>
+                        <li><a href="#">Письмо руководителю</a></li>
                     </ul>
                     <ul>
                         <span>ЛИЧНЫЙ КАБИНЕТ</span>
-                        <li><a href="# ">Избранное</a></li>
-                        <li><a href="# ">История заказов</a></li>
+                        <li><a href="#">Избранное</a></li>
+                        <li><a href="#">История заказов</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="super-bottom ">
-            <div class="wrapper strench ">
-                <div class="col m3 "><span>© 2007 «Файберам-маркет» <br/>тел. +7 (800) 500-9108</span></div>
-                <div class="col m3 "><img src="img/payment.png " /></div>
-                <div class="col m3 ">
-                    <a href="# ">Регистрция </a>
-                    <a href="# ">Карта сайта</a>
+        <div class="super-bottom">
+            <div class="wrapper strench">
+                <div class="col m3"><span>© 2007 «Файберам-маркет» <br/>тел. +7 (800) 500-9108</span></div>
+                <div class="col m3 bottom-menu">
+                    <ul>
+                        <li><a href="#">Точки продаж</a></li>
+                        <li><a href="#">Клубная карта</a></li>
+                        <li><a href="#">Реклама</a></li>
+                        <li><a href="#">Партнерам</a></li>
+                        <li><a href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+                <div class="col m3">
+                    <a href="#" class="icon user">Создать личный кабинет</a>
+
                 </div>
             </div>
         </div>
     </footer>
+
     <!-- Body END  -->
 
-    <script src="js/jquery.min.js "></script>
-    <script src="js/materialize.min.js "></script>
-    <script src="js/owl.carousel.min.js "></script>
-    <script src="js/jquery.maskedinput.min.js "></script>
-    <script src="js/init.js "></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/init.js"></script>
 
 </body>
 

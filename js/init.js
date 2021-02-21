@@ -168,6 +168,7 @@ $(document).ready(function() {
         carousel3.trigger('owl.next');
         return false;
     });
+
     //------------------------------------------
     var carousel3 = $(".kategory");
     carousel3.owlCarousel({

@@ -16,6 +16,133 @@
 </head>
 
 <body>
+    <div id="menu-panel" class="sidenav mainmenu">
+        <a href="#!" class="sidenav-close"></a>
+        <div class="citizen"></div>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header"><img src="img/defuser.png" /> <span>Захаров Алексей</span>
+                    <a href="#" class="icon myfavor"></a>
+                </div>
+                <div class="collapsible-body account">
+                    <a href="#!" class="icon trash">Корзина</a>
+                    <a href="#!" class="icon story">История заказов</a>
+                    <a href="#!" class="icon myfavor">Избранное</a>
+                    <a href="#!" class="icon setting">Редактировать профиль</a>
+                    <a href="#" class="policy">Пользовательское соглашение</a>
+                </div>
+            </li>
+        </ul>
+        <div class="catalog_menu">
+            <h2>КАТАЛОГ ТОВАРОВ</h2>
+            <div class="accordion-group">
+                <h3 class="accordion-header ">Мебель и интерьер</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <h4 class=" accordion-header">Промышленность </h4>
+                        <div class="accordion-body">
+                            <a href="#">Стройматериалы</a>
+                            <a href="#">Вода, газ и тепло</a>
+                            <a href="#">Авто-мото-велотехника </a>
+                            <a href="#">Мебель и интерьер</a>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="accordion-header ">Стройматериалы</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
+                </div>
+                <h3 class="accordion-header ">Авто-мото-велотехника<span>топ100 </span></h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
+                </div>
+                <h3 class="accordion-header hot">Авто-мото-велотехника</h3>
+                <div class="accordion-body">
+                    <div class="accordion-group" data-multiple="true">
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                        <a href="#">Стройматериалы</a>
+                        <a href="#">Вода, газ и тепло</a>
+                        <a href="#">Авто-мото-велотехника </a>
+                        <a href="#">Мебель и интерьер</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="basket-panel" class="sidenav shoppanel basket">
+        <a href="#!" class="sidenav-close"></a>
+        <ul>
+            <li><img src="img/flower.jpg" />
+                <div class="basket-data">
+                    <div class="mini-title">Алегро</div>
+                    <div class="price">
+                        <div> 2500 <span>руб</span><strong>1 шт</strong></div>
+                    </div>
+                </div>
+                <div class="fb-price">
+                    <div>2 370 <strong>руб</strong></div>
+                </div>
+            </li>
+            <li><img src="img/flower.jpg" />
+                <div class="basket-data">
+                    <div class="mini-title">Алегро</div>
+                    <div class="price">
+                        <div> 2500 <span>руб</span><strong>1 шт</strong></div>
+                    </div>
+                </div>
+                <div class="fb-price">
+                    <div>2 370 <strong>руб</strong></div>
+                </div>
+            </li>
+            <a href="#" class='btn'>Перейти в корзину</a>
+        </ul>
+    </div>
+
+    <div id="search-panel" class="sidenav searchpanel">
+        <a href="#!" class="sidenav-close"></a>
+        <input type="text" class="search-field" placeholder="Поиск в каталоге. Например - Роботы-полесосы" />
+        <select>
+        <option>Все разделы</option>
+        <option>Промышленность</option>
+        <option>Стройматериалы</option>
+        <option>Вода, газ, тепло</option>
+        <option>Дом и сад</option>
+        <option>Одежда и обувь</option>
+        <option>Спорт и отдых</option>
+        <option>Здоровье и красота</option>
+        <option>Текстиль и кожа</option>
+        <option>Промышленность</option>
+        <option>Стройматериалы</option>
+        <option>Вода, газ, тепло</option>
+        <option>Дом и сад</option>
+        <option>Одежда и обувь</option>
+        <option>Спорт и отдых</option>
+        <option>Здоровье и красота</option>
+        <option>Текстиль и кожа</option>
+    </select>
+    </div>
     <!-- WINDOW ENTER -->
     <div id="bonus" class="modal">
         <div class="modal-content">
@@ -334,7 +461,7 @@
                                 <div class="res-row-top">
                                     <div class="img-wrap"><img src="img/buket4.jpg"></div>
                                     <div class="search-descript">Nike Air Huracate<span>Куртка утепленаня</span></div>
-                                    <div class="revies">
+                                    <div class="stars">
                                         <div class="full-star icon"></div>
                                         <div class="full-star icon"></div>
                                         <div class="full-star icon"></div>
@@ -343,7 +470,7 @@
                                 <div class="res-row-top">
                                     <div class="img-wrap"><img src="img/buket4.jpg"></div>
                                     <div class="search-descript">Nike Air Huracate<span>Куртка утепленаня</span></div>
-                                    <div class="revies">
+                                    <div class="stars">
                                         <div class="full-star icon"></div>
                                         <div class="full-star icon"></div>
                                         <div class="full-star icon"></div>
@@ -588,7 +715,16 @@
         <div class="content">
 
             <div class=" item-card">
-                <a href="#!" class="modal-close "></a>
+                <div class="title"><strong>Monster Beat Mixr</strong><span>артикул 234985</span>
+
+                </div>
+                <div class="revies">
+                    <div class="star full"></div>
+                    <div class="star full"></div>
+                    <div class="star full"></div>
+                    <div class="star"></div>
+                    <div class="star"></div> 65 отзывов
+                </div>
                 <div class="left-col">
                     <ul class="tabs pre-tabs">
                         <li class="tab">
@@ -611,15 +747,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <div class="title"><strong>Monster Beat Mixr</strong><span>артикул 234985</span>
-                        <div class="pormo-gift">1000 р в подарок</div>
-                    </div>
-                    <div class="revies">
-                        <div class="star full"></div>
-                        <div class="star full"></div>
-                        <div class="star full"></div>
-                        <div class="star"></div>
-                        <div class="star"></div> 65 отзывов </div>
+
                     <div class="setting-product">
                         <div class="colors-product">
                             <div class="title-row">Цвет товара</div>
@@ -1207,7 +1335,6 @@
             <div class="carousel-element"><img src="img/brends-6.jpg" /></div>
         </div>
     </div>
-
 
     <!-- FOTTER  -->
     <footer>
