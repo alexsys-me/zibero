@@ -87,15 +87,6 @@ $(document).ready(function() {
         carouselsee.trigger('owl.next');
         return false;
     });
-    //  ----------------
-    var carouselsee = $(".select-gift");
-    carouselsee.owlCarousel({
-        itemsDesktop: 3,
-        itemsDesktop: [1900, 3],
-        itemsDesktopSmall: [1000, 3],
-        itemsTablet: false,
-        itemsMobile: [375, 2]
-    });
 
 
     //  ----------------
