@@ -2189,7 +2189,6 @@ header .search .select-wrapper .dropdown-content li span {
 .item-card .left-col .preview .modal-trigger:before {
     display: block;
     position: absolute;
-    content: '������� �������';
     left: 0;
     top: 0;
     right: 0;
@@ -2721,8 +2720,6 @@ header .search .select-wrapper .dropdown-content li span {
     font-size: 14px;
     color: rgb(144, 144, 144);
 }
-
-.user-description .reviews-user {}
 
 .user-description .reviews-user .title {
     color: 151515;
@@ -8193,10 +8190,10 @@ a.tarif:before {
     color: #000;
     text-align: center;
     font-size: 12px;
-    line-height: 8px;
+    line-height: 5px;
     box-sizing: border-box;
     position: relative;
-    padding: 10px;
+    padding: 15px;
 }
 
 .item-card .setting-product .size-product label span:after,
@@ -8205,7 +8202,7 @@ a.tarif:before {
     border-radius: 0!important;
     margin: 0;
     border: 1px solid #4a4d97!important;
-    background: #babbd2!important;
+    background: #818181!important;
     width: 100%!important;
     height: 100%!important;
     top: 0!important;
@@ -8215,7 +8212,7 @@ a.tarif:before {
 
 .item-card .setting-product .size-product label span:before {
     z-index: -1;
-    border: 1px solid #ccc;
+    border: 1px dashed #ccc;
     margin: 0;
     width: 100%!important;
     height: 100%!important;
@@ -9635,8 +9632,6 @@ input[type=submit].modal-close {
     justify-content: space-between;
 }
 
-.betters {}
-
 .counting {
     padding-top: 70px
 }
@@ -10067,4 +10062,75 @@ input[type=submit].modal-close {
 
 .descript .icon {
     color: #5A5858;
+}
+
+.club-card-mark {
+    background: url(../images/smallgerb.png) no-repeat;
+    display: block;
+    width: 35px;
+    height: 42px;
+}
+
+.review {
+    max-width: 900px;
+}
+
+.devilerys {
+    display: flex;
+    width: 100%;
+    padding-left: 24px;
+    justify-content: space-between;
+}
+
+.devilerys div {
+    display: flex;
+    color: #79797D;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.devilerys .d-title {
+    min-width: 200px;
+    flex: 200px;
+}
+
+.devilerys .d-time {
+    min-width: 90px;
+    flex: 90px;
+}
+
+.devilerys a {
+    margin: 0!important;
+    font-weight: 500!important;
+}
+
+.devilerys span {
+    color: #BEBEBE!important;
+}
+
+.icon-1.devilerys {
+    background: url(../images/mini-icon-1.svg) no-repeat left center;
+}
+
+.icon-2.devilerys {
+    background: url(../images/mini-icon-2.svg) no-repeat left center;
+}
+
+.icon-3.devilerys {
+    background: url(../images/mini-icon-3.svg) no-repeat left center;
+}
+
+.icon-4.devilerys {
+    background: url(../images/mini-icon-4.svg) no-repeat left center;
+}
+
+.info-adres {
+    border-top: 1px solid #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;
+    padding: 20px 0;
+}
+
+.shopper,
+.brend {
+    flex: 1;
 }
