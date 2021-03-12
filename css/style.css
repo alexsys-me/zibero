@@ -10134,3 +10134,5 @@ input[type=submit].modal-close {
 .brend {
     flex: 1;
 }
+.mor_basket{     display: inline;     font-size: 14px;
+    color: #777;}
