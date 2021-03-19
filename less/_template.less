@@ -7,8 +7,20 @@
 @rose:#4a4d97;
 @green:#bd00a7;
 
-.cleartext{ max-width:840px; margin:auto;}
+@black: #000;
+
+
+.radius(@radius:0px){
+	border-radius:@radius;
+}
+
+.cleartext{ max-width:840px; margin:auto; 
+	color:@black:
+}
 form{
+
+	color:@black;
+
 	input{ border:1px solid #c3c3c3;  padding:10px;    width: 100%; height:20px;}
 	textarea{ border:1px solid #c3c3c3; padding:10px;    width: 100%;}
 }

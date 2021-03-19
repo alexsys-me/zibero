@@ -2641,13 +2641,15 @@ header .search .select-wrapper .dropdown-content li span {
 .item-card .right-col .info-product .club-card {
     align-items: center;
     display: flex;
+    background: #e2e2f5;
+    padding-right: 15px;
 }
 
 .item-card .right-col .info-product .club-card p {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: -11px;
     margin-bottom: 0;
-    line-height: 14px;
+    line-height: 20px;
     max-width: 200px;
 }
 
@@ -10134,5 +10136,24 @@ input[type=submit].modal-close {
 .brend {
     flex: 1;
 }
-.mor_basket{     display: inline;     font-size: 14px;
-    color: #777;}
+
+.mor_basket {
+    display: inline;
+    font-size: 14px;
+    color: #777;
+}
+
+.club-card {
+    padding-left: 15px;
+    line-height: 14px;
+}
+
+.club-card .club_price p {
+    color: #ff3843;
+    font-size: 20px!important;
+}
+
+.club-card span {
+    margin-bottom: 5px;
+    display: inline-block;
+}
