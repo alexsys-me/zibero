@@ -1,10 +1,10 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M29.0343 1.68256L1.875 14.7593V21.5625H58.125V14.7232L29.0343 1.68256ZM54.375 17.8125H5.625V17.1157L29.0907 5.8174L54.375 17.1518V17.8125Z" fill="#878BC8"/>
-<path d="M5.625 47.8125H54.375V51.5625H5.625V47.8125Z" fill="#878BC8"/>
-<path d="M1.875 54.375H58.125V58.125H1.875V54.375Z" fill="#878BC8"/>
-<path d="M6.5625 25.3125H10.3125V44.0625H6.5625V25.3125Z" fill="#878BC8"/>
-<path d="M49.6875 25.3125H53.4375V44.0625H49.6875V25.3125Z" fill="#878BC8"/>
-<path d="M38.4375 25.3125H42.1875V44.0625H38.4375V25.3125Z" fill="#878BC8"/>
-<path d="M17.8125 25.3125H21.5625V44.0625H17.8125V25.3125Z" fill="#878BC8"/>
-<path d="M28.125 25.3125H31.875V44.0625H28.125V25.3125Z" fill="#878BC8"/>
+<path d="M27.7274 6L6 16.5246V22H51V16.4955L27.7274 6ZM48 18.9819H9V18.4211L27.7726 9.32785L48 18.4501V18.9819Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
+<path d="M9 43H48V45H9V43Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
+<path d="M6 48H51V51H6V48Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
+<path d="M10 24H12V40H10V24Z" fill="#878BC8"/>
+<path d="M45 24H47V40H45V24Z" fill="#878BC8"/>
+<path d="M35 24H38V40H35V24Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
+<path d="M19 24H22V40H19V24Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
+<path d="M27 24H30V40H27V24Z" fill="#878BC8" stroke="white" stroke-width="0.6"/>
 </svg>
