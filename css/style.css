@@ -10246,6 +10246,17 @@
         line-height: 23px;
     }
     
+    .express_dev {
+        font-size: 16px;
+        margin-bottom: 16px;
+        padding-left: 50px;
+        background: url(../images/express.svg) no-repeat;
+    }
+    
+    .express_dev strong {
+        display: block;
+    }
+    
     .express {
         margin-bottom: 20px;
         background: #e4e5ed;
