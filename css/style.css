@@ -10397,3 +10397,68 @@
     .add_review_col_right input[type="submit"]:hover {
         background: #2b2e79;
     }
+    
+    .is_buyer {
+        background: #e4e5ed;
+        border-radius: 3px;
+        display: block;
+        width: auto;
+        font-size: 12px;
+        margin-bottom: 15px;
+        padding: 2px 5px;
+        color: #71739e;
+        max-width: 130px;
+    }
+    
+    #fine-uploader-gallery {
+        margin-bottom: 20px;
+    }
+    
+    .add_review_row .qq-upload-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .add_review_row .qq-upload-list li.qq-upload-success {
+        background-color: #ffffff!important;
+    }
+    
+    .add_review_row .qq-file-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .add_review_row .qq-upload-delete {
+        background-color: transparent;
+        color: #FAFAFA;
+        border-color: transparent;
+        text-shadow: 0 1px 0px rgb(0 0 0 / 55%);
+    }
+    
+    .add_review_row .qq-btn {
+        box-shadow: 0 1px 1px rgb(255 255 255 / 37%) inset, 1px 0 1px rgb(255 255 255 / 7%) inset, 0 1px 0 rgb(0 0 0 / 36%), 0 -2px 12px rgb(0 0 0 / 8%) inset;
+        padding: 3px 5px;
+        border: 1px solid #4a4d97;
+        border-radius: 2px;
+        color: inherit;
+        background-color: #4a4d97;
+    }
+    
+    .add_review_row .qq-upload-button-hover {
+        background: #5659a7;
+    }
+    
+    .qq-upload-succes {
+        position: relative;
+    }
+    
+    .add_review_row .qq-upload-button {
+        width: 100%;
+        box-sizing: border-box;
+        background: #dedede;
+        color: #919196;
+        border: 1px dashed #bfc3c3;
+    }
+    
+    .qq-file-info {}
