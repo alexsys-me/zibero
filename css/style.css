@@ -7039,9 +7039,9 @@
     .showcase h4 a {
         color: #9a9899;
         text-transform: none;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 14px;
+
+        font-weight: 900;
+        font-size: 24px;
     }
     
     .showcase h4 a:hover {
