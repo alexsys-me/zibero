@@ -1,0 +1,13 @@
+.landheader{height: 304px!important;}
+
+.faq-center{ margin: 90px auto; }
+.faq-col{flex:25%; margin-bottom: 25px; }
+.faq-col img{    max-width: 100px; margin-top: 10px;
+    margin-bottom: 20px;}
+.faq-col h4{    padding-bottom: 20px; text-align: left;    font-weight: bold;
+    font-size: 20px;
+    color: #626379;}
+    .faq-col ul{ padding-right: 30px;}
+.faq-col li{}
+.faq-col a{color: #474d9b}
+.faq-col a:hover{text-decoration: underline!important;}
