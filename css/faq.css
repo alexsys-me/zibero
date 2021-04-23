@@ -17,6 +17,9 @@
 .faq-col a{color: #474d9b}
 .faq-col a:hover{text-decoration: underline!important;}
 
-.faq-content{ padding-bottom: 60px; display: flex;}
-.faq-content .left-col{}
-.faq-content .right-col{ flex:20%}
+.faq-content{ padding-top: 60px; display: flex; flex-wrap: nowrap;}
+.faq-content img{ display: block; margin-bottom: 30px;}
+.faq-content .left-col{ padding-right: 50px;}
+.faq-content .left-col h2{ text-align: left;  padding-bottom: 40px; font-weight: 600; font-size: 30px;}
+.faq-content .right-col{ flex:30%}
+.faq-content .right-col h4{ font-size: 18px; padding-top: 30px; font-weight: 600; text-align: left;}
