@@ -2479,11 +2479,13 @@
         width: 100%;
         padding-right: 15px;
         align-items: center;
+        justify-content: flex-end;
     }
     
     .item-card .right-col .info-product .buttons .field {
         margin-left: -10px;
         margin-top: -10px;
+        max-width: 100px;
     }
     
     .item-card .right-col .info-product .field button {
