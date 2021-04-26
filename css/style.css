@@ -2666,6 +2666,7 @@
     .user-description {
         margin-top: 60px;
         margin-bottom: 100px;
+        width: 100%;
     }
     
     .user-description .desc-user {
@@ -2705,6 +2706,10 @@
         font-weight: 400;
         margin-top: -15px;
         line-height: 37px;
+    }
+    
+    .property {
+        width: 100%;
     }
     
     .user-description .desc-user .property {
@@ -6216,7 +6221,8 @@
         padding-right: 20px;
     }
     
-    .rightcol h2 {
+    .rightcol h2,
+    .filtr h2 {
         font-size: 18px;
         margin-top: 50px;
         font-weight: bold;
@@ -6225,7 +6231,12 @@
         padding-left: 15px;
     }
     
-    .rightcol ul li {
+    .filtr .kategories {
+        padding-left: 30px;
+    }
+    
+    .rightcol ul li,
+    .filtr li {
         margin-bottom: 4px;
     }
     
@@ -6235,27 +6246,32 @@
         border-radius: 3px;
     }
     
-    .rightcol ul li.active ul {
+    .rightcol ul li.active ul,
+    .filtr ul li.active ul {
         padding-left: 20px;
         padding-top: 5px;
     }
     
-    .rightcol ul li.active a {
+    .rightcol ul li.active a,
+    .filtr li.active a {
         font-weight: 400;
     }
     
-    .rightcol ul li a {
+    .rightcol ul li a,
+    .filtr a {
         color: #5e5f6e;
         font-weight: 500;
         font-size: 14px;
         margin-left: 30px;
     }
     
-    .rightcol .collapsible-body li a {
+    .rightcol .collapsible-body li a,
+    .filtr a {
         margin-left: 0px;
     }
     
-    .rightcol ul li a:hover {
+    .rightcol ul li a:hover,
+    .filtr a:hover {
         color: #4a4d97;
     }
     
@@ -6946,9 +6962,12 @@
     
     .showcase {
         width: 100%;
+        justify-content: flex-start
     }
     
-    .component .showcase h4 {}
+    .showcase .cardware {
+        margin-right: 10px;
+    }
     
     .showcase h4:before {
         margin-left: -60px;
@@ -10656,4 +10675,134 @@
     .shop .owl-carousel .owl-item {
         min-width: 240px;
         max-width: 250px;
+    }
+    
+    .brands .carousel-element img {
+        max-height: 110px;
+        width: auto;
+    }
+    
+    .info-product .field input[name="amount"] {
+        width: 100px;
+        border: 1px solid #4a4d97;
+        max-width: 57px;
+        height: 42px;
+        margin-top: -6px;
+    }
+    
+    #amwp {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .item-card .right-col .info-product .buttons .field span {
+        line-height: 32px;
+    }
+    
+    .reviews-user-no {
+        width: 100%;
+    }
+    
+    .reviews-user-no .btn {
+        border: 1px solid #9F9FB9;
+        border-radius: 3px;
+        color: #9F9FB9;
+        float: right;
+        font-weight: 400;
+        line-height: 37px;
+    }
+    
+    .desc-user .left-col {
+        width: 70%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 30px;
+    }
+    
+    .desc-user .right-col {
+        max-width: 30%;
+        float: left;
+    }
+    
+    .desc-user .right-col a {
+        display: block;
+    }
+    
+    .file-down img {
+        float: left;
+    }
+    
+    .file-down {
+        color: #000;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .file-down span {
+        display: block;
+    }
+    
+    .file-down:hover {
+        color: #4a4d97;
+    }
+    
+    .right-col h6 {
+        width: 100%;
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: none;
+        margin-bottom: 10px;
+    }
+    
+    .item-card .right-col ul {
+        width: 100%;
+    }
+    
+    .item-card .right-col ul li {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item-card .right-col ul li span,
+    .item-card .right-col ul li strong {
+        background: #fff;
+        padding: 0 5px;
+    }
+    
+    .item-card .right-col ul li:before {
+        width: 100%;
+        height: 1px;
+        content: '';
+        display: block;
+        position: absolute;
+        border-top: 1px dashed #c3c3c3;
+        margin-top: 10px;
+        z-index: -1;
+    }
+    
+    .desc-user.active {
+        display: block!important;
+    }
+    
+    .desc-user .filtr {
+        max-width: 300px;
+    }
+    
+    .desc-user .showcase {
+        width: 74%;
+        float: left;
+        align-content: flex-start;
+    }
+    
+    .more_products {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .desc-user .showcase .cardware {
+        max-width: 23%;
+        margin: 4px 8px;
     }
