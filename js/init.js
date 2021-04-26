@@ -125,9 +125,10 @@ $(document).ready(function() {
         return false;
     });
 
+
     //--ZOOM-----------------------------
 
-    $('.zoom').zoom();
+
     //------------------------------------------
     var carousel2 = $(".snew");
     carousel2.owlCarousel({
@@ -203,6 +204,9 @@ $(document).ready(function() {
         itemsDesktopSmall: [1400, 5],
         itemsMobile: [420, 1]
     });
+
+    $('.zoom').zoom();
+
 });
 
 function testJump(x) {
