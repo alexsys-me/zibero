@@ -372,7 +372,7 @@
     .g4 .col,
     .g4 .company {
         flex: 25%;
-        max-width: 24%;
+        max-width: 23%;
         margin: 5px 2px;
     }
     
@@ -3364,7 +3364,7 @@
     }
     
     .cardware {
-        padding-bottom: 30px!important;
+        padding-bottom: 10px!important;
         text-align: center;
         position: relative;
     }
@@ -10805,4 +10805,48 @@
     .desc-user .showcase .cardware {
         max-width: 23%;
         margin: 4px 8px;
+    }
+    
+    .hvr__images {
+        position: relative;
+    }
+    
+    .hvr__sectors {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+    }
+    
+    .hvr__sector {
+        flex-grow: 1;
+    }
+    
+    .images {
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .images img {
+        display: block;
+    }
+    
+    .hvr__dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hvr__dot {
+        width: 5px;
+        height: 5px;
+        margin: 2px 5px 10px;
+        border-radius: 50%;
+        background: #d6dbe0;
+    }
+    
+    .hvr__dot--active {
+        background: #474d9b;
     }
