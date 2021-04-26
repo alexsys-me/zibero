@@ -10850,3 +10850,15 @@
     .hvr__dot--active {
         background: #474d9b;
     }
+    
+    .club_discount {
+        color: #fff;
+        background: #ff3843;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 99;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
