@@ -125,6 +125,9 @@ $(document).ready(function() {
         return false;
     });
 
+    //--ZOOM-----------------------------
+
+    $('.zoom').zoom();
     //------------------------------------------
     var carousel2 = $(".snew");
     carousel2.owlCarousel({
