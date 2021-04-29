@@ -10867,3 +10867,13 @@
         border-radius: 3px;
         font-size: 12px;
     }
+    
+    .cardware .field {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .place-map label {
+        width: 100%;
+        display: block;
+    }

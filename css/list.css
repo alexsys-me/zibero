@@ -37,6 +37,12 @@
     padding: 0;
 }
 
+.cartext a {
+    color: #5659a7;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .cartext {
     flex-grow: 10;
     padding-top: 20px;
