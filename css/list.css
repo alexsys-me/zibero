@@ -43,6 +43,12 @@
     font-size: 15px;
 }
 
+.list .club_discount {
+    bottom: 26px;
+    top: auto;
+    left: 30px;
+}
+
 .cartext {
     flex-grow: 10;
     padding-top: 20px;
