@@ -3385,6 +3385,17 @@
         width: 100%;
     }
     
+    .cardware p a {
+        color: #000;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .cardware p a:hover {
+        color: #5659a7;
+        text-decoration: underline;
+    }
+    
     .cardware .btn {
         width: 80%;
         margin: auto;
@@ -4741,15 +4752,23 @@
     
     .table-size .heartr {
         font-size: 13px;
-        line-height: 48px;
         background: #c4c3d1;
         font-weight: 500;
+    }
+    
+    #sizes {
+        width: 90%!important;
+    }
+    
+    #sizes .modal-content {
+        overflow-x: scroll;
     }
     
     .table-size div {
         text-align: center;
         padding: 10px 0;
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 12px;
         border-bottom: 1px solid #ccc;
     }
     
@@ -7105,8 +7124,44 @@
     .cardware span {
         display: block;
         color: #7d7d7d;
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+        padding-left: 17px;
+        text-align: left;
+    }
+    
+    .cardware span .expr {
+        color: #ff3843;
+    }
+    
+    .cardware span .today strong {
+        background: #d3d3d3;
+        color: #474d9b;
+        padding: 2px 5px;
+        border-radius: 3px;
+    }
+    
+    .cardware .additive {
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .cardware .additive span {
+        display: flex;
+    }
+    
+    .cardware .additive a {
+        border: 1px dotted #989898;
+        min-width: 15px;
+        border-radius: 5px;
+        margin-right: 5px;
+        min-height: 15px;
+    }
+    
+    .cardware .revies {
+        margin-left: 15px;
+        width: 100%;
     }
     
     .smallsize {
@@ -7175,11 +7230,6 @@
         background: #fff;
         margin-left: 10px;
         transition: .2s;
-    }
-    
-    .cardware .favorit {
-        background: #d3d3d3;
-        border-radius: 6px;
     }
     
     .modal-content.item-card {
