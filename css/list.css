@@ -77,13 +77,38 @@
     font-size: 23px;
 }
 
+.pre-price b {
+    color: white;
+    background: #ff3843;
+    padding: 2px 5px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 3px;
+    display: block;
+}
+
+
+}
+.pre-price b:before {
+    content: 'Z';
+    display: inline-block;
+    border: 1.5px dashed #fff;
+    margin-right: 6px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    float: left;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+}
 .card-last {
     display: flex;
     max-width: 230px;
     align-content: space-around;
     flex-wrap: wrap;
 }
-
 .rassrochaka {
     display: flex;
     width: 100%;
@@ -93,7 +118,6 @@
     font-size: 11px;
     line-height: 20px;
 }
-
 .rassrochaka span {
     background: #ffe564;
     font-weight: bold;
@@ -102,52 +126,41 @@
     margin-right: 5px;
     font-size: 14px;
 }
-
 .morecontent {
     background: #eceffe;
     padding: 2px 5px;
     font-size: 12px;
     margin-left: 10px;
 }
-
 .best_prod .carousel-element {
     height: 260px;
 }
-
 .best_prod .carousel-element p {
     height: 40px;
 }
-
 h4.best_prod {
     color: #ff3843;
 }
-
 h4.best_prod:before {
     color: #ff3843!important;
 }
-
 .component h2 {
     text-align: left;
     font-weight: 600;
     font-size: 24px;
 }
-
 .brands {
     padding-top: 40px!important;
 }
-
 .brands .owl-item {
     min-width: auto!important;
 }
-
 .shop .owl-carousel {
     margin-bottom: 40px!important;
 }
-
 .reklam_block .owl-item {
     background: #f3f3f3;
 }
-
 .reklam_block .owl-item span {
     height: auto!important;
 }
