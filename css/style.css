@@ -2674,6 +2674,7 @@
     .user-description .desc-user {
         padding-right: 60px;
         flex: 50%;
+        overflow: hidden;
     }
     
     .user-description .desc-user .about-prod p {
@@ -4314,7 +4315,7 @@
     }
     
     .submenu .main-menu #catalog .sub-fiels {
-        height: 100%;
+        min-height: 100%;
         box-shadow: 5px 5px 15px rgba(21, 21, 21, 0.2);
         background: #fff;
         display: none;
