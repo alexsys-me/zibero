@@ -10845,6 +10845,7 @@
     
     .desc-user .filtr {
         max-width: 300px;
+        padding-top: 20px;
     }
     
     .desc-user .showcase {
@@ -10927,4 +10928,27 @@
     .place-map label {
         width: 100%;
         display: block;
+    }
+    
+    .showcase .carousel-element {
+        margin-left: 0!important;
+    }
+    
+    .sort-filtr {
+        flex: 100%;
+        justify-content: flex-end;
+        display: flex;
+        padding-right: 20px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .sort-filtr a {
+        display: block;
+        width: 16px;
+        height: 16px;
+        background: url(../images/sort.svg);
+        margin-left: 5px;
+        background-size: cover;
+        margin-top: 0px;
     }
