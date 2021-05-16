@@ -3422,6 +3422,11 @@
      display: flex;
  }
  
+ .pre-price b span {
+     text-decoration: none;
+     display: block!important;
+ }
+ 
  .cardware p {
      color: #3e4146;
      font-size: 14px;
@@ -7143,21 +7148,22 @@
      margin-bottom: 15px;
  }
  
- .cardware .expr,
- .owl-item .expr {
+ .expr {
      color: #ff3843;
+     background: url(../images/expres.svg) no-repeat left top;
+     background-size: 20px;
  }
  
  .today {
-     margin-bottom: 10px;
+     margin-bottom: 16px;
  }
  
- .cardware span .today strong,
- .owl-item span .today strong {
-     background: #d3d3d3;
+ .today strong {
+     background: #d3d3d3 url(../images/roket.svg) no-repeat 2px 2px;
      color: #474d9b;
-     padding: 2px 5px;
+     padding: 4px 5px 4px 25px;
      border-radius: 3px;
+     background-size: 20px;
  }
  
  .cardware .additive {
@@ -10774,10 +10780,12 @@
  
  .reviews-user-no {
      width: 100%;
+     border: 1px solid #5659a7;
+     padding: 15px;
  }
  
  .reviews-user-no .title {
-     font-size: 20px;
+     font-size: 17px;
      color: #474d9b;
  }
  
