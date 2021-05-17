@@ -115,8 +115,18 @@ $(document).ready(function() {
     });
     // SLIDERS ----------------
     $('.slider').slick();
+    //------------------------------------------
+    $('.newbrands').slick({
+        infinite: true,
+        slidesToShow: 6
+    });
 
-
+    //------------------------------------------
+    $('.eshop').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 5
+    });
     //  ----------------
     $('.seelater').slick({
         infinite: true,
@@ -168,22 +178,11 @@ $(document).ready(function() {
     });
 
 
-    //------------------------------------------
-    $('.eshop').slick({
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 5
-    });
-
-    //------------------------------------------
-    $('.brands').slick({
-        infinite: true,
-        slidesToShow: 8,
-        slidesToScroll: 8
-    });
 
 
-    $('.images').HvrSlider();
-    $('.zoom').zoom();
+
+
+    //$('.images').HvrSlider();
+    //  $('.zoom').zoom();
 
 });

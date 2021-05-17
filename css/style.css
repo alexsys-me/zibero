@@ -1569,12 +1569,12 @@
  
  .slick-prev.slick-arrow {
      right: 40px!important;
-     background: #fff url(../images/arrow-left.png) no-repeat;
+     background: transparent url(../images/arrow-left.png) no-repeat;
  }
  
  .slick-next.slick-arrow {
      right: 0!important;
-     background: #fff url(../images/arrow-right.png) no-repeat;
+     background: transparent url(../images/arrow-right.png) no-repeat;
  }
  
  .slick-arrow:hover {
@@ -1655,6 +1655,12 @@
      height: 20px;
      border: 1px solid #cacaca !important;
      border-radius: 2px;
+ }
+ 
+ .branding,
+ .newbrands,
+ .eshop {
+     max-width: 1300px;
  }
  
  #one input,
