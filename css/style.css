@@ -1140,6 +1140,21 @@
      padding-top: 40px;
  }
  
+ .branding .slick-slide {
+     margin: 6px;
+     border-radius: 6px;
+     box-shadow: 0px 0px 20px #00000036;
+ }
+ 
+ .branding .slick-slide a {
+     display: flex;
+     width: 100%;
+     height: 90px;
+     overflow: hidden;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
  .branding h2 {
      text-align: left;
      color: #a0a0a0;
@@ -3579,6 +3594,7 @@
      box-shadow: 0 0 9px rgba(204, 204, 204, 0.5);
      text-align: center;
      background: #fff;
+     margin: 6px;
      padding: 25px 0 18px;
  }
  
@@ -6948,6 +6964,7 @@
      background: #fff;
      border: 1px solid #d2d0d0;
      padding: 10px;
+     margin: 6px;
      box-shadow: 0 0 9px rgba(204, 204, 204, 0.5);
  }
  
@@ -7166,11 +7183,11 @@
  }
  
  .today strong {
-     background: #d3d3d3 url(../images/roket.svg) no-repeat 2px 2px;
+     background: #d3d3d3 url(../images/roket.svg) no-repeat 7px 2px;
      color: #474d9b;
      padding: 4px 5px 4px 25px;
      border-radius: 3px;
-     background-size: 20px;
+     background-size: 12px;
  }
  
  .cardware .additive {
