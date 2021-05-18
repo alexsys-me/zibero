@@ -3426,7 +3426,8 @@
  }
  
  .pre-price b span {
-     text-decoration: none;
+     text-decoration: none!important;
+     font-size: 14px!important;
      display: block!important;
  }
  
@@ -7152,9 +7153,12 @@
  }
  
  .expr {
-     color: #ff3843;
+     color: #ff3843!important;
      background: url(../images/expres.svg) no-repeat left top;
      background-size: 20px;
+     margin-bottom: 10px;
+     margin-left: 15px;
+     padding-left: 30px!important;
  }
  
  .today {
