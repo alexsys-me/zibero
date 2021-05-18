@@ -3440,7 +3440,7 @@
      display: flex;
  }
  
- .pre-price b span {
+ body .component .pre-price b span {
      text-decoration: none!important;
      font-size: 14px!important;
      display: block!important;
@@ -7204,6 +7204,7 @@
      min-width: 15px;
      border-radius: 5px;
      margin-right: 5px;
+     width: auto;
      min-height: 15px;
  }
  
