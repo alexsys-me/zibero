@@ -5149,12 +5149,12 @@
  .basket-shop .basket-string .table .row-string .summ p {
      font-size: 20px;
      color: #3d3d3d;
-     margin-top: 15px;
+     margin-top: 15px;    white-space: nowrap;
      margin-bottom: 0px;
      font-weight: 600;
      font-size: 18px;
  }
- 
+
  .basket-shop .basket-string .table .row-string .summ p span {
      font-size: 14px;
  }
@@ -8523,17 +8523,23 @@
      background: #e8e8e8;
      color: #9D9D9D;
      font-size: 14px;
-     padding: 8px 15px;
+     padding: 8px 15px;    display: flex;
+     justify-content: space-between;
  }
- 
+ .table-head .infoseting{display: flex;}
+ .table-head .infoseting div{margin-left: 15px;    color: #848484}
+ .table-head .infoseting .curier:before{ margin-right: 5px; content:url('../images/cetting_place.svg') ;}
+ .table-head .infoseting .sam:before{  margin-right: 5px;     float: left;content:url('../images/cetting_sam.svg') ; }
+
+
  .basket-shop .basket-string .table .row-string .des i {
      font-size: 12px;
-     color: #9495A3;
+     color: #9495A3;    line-height: 14px;
      display: block;
-     line-height: 10px;
+ 
  }
  
- .s3 .more-data li.post:before {
+  .s3 .more-data li.post:before {
      content: url('../images/post.svg');
  }
  
@@ -8548,6 +8554,9 @@
  .s3 .more-data li.mail:before {
      content: url('../images/map_post-box.svg');
  }
+ .s3 .more-data li.gruz:before {
+    content: url('../images/gruz.svg');
+}
  
  .s3 .more-data li.more:before {
      content: "\f11e";
@@ -8848,26 +8857,35 @@
      justify-content: flex-start;
  }
  
- .summary .row .fb-price {
-     margin-top: -30px;
- }
+
  
  .fb-price {
-     color: #FE3441;
-     border: 2px dashed #FE3441;
+     color: #fff;
+ background-color: #FE3441;;
      box-sizing: border-box;
      display: block;
-     border-radius: 100%;
-     width: 90px;
-     height: 90px;
-     font-size: 24px;
+   border-radius: 4px;
+   height: 30px;line-height: 15px;
+      font-size: 24px;
      font-weight: 600;
-     line-height: 24px;
+     display: flex;
      text-align: right;
      padding-top: 30px;
-     padding-right: 10px;
+     padding-right: 10px;    
+     padding: 10px;
  }
- 
+ .summary .fb-price:before{ content: 'Z';
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px dashed #fff;
+    line-height: 17px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    margin-top: -2px;
+}
  .fb-price i {
      font-size: 14px;
      display: block;
@@ -10362,7 +10380,11 @@
      margin: 0;
      line-height: 23px;
  }
- 
+ .more-data+ .express_dev {       margin-top: 16px;
+    margin-left: 20px;   
+   background: #ebecf2 url(../images/express.svg) no-repeat 10px;
+    padding: 10px; padding-left: 60px;    max-width: 228px;
+}
  .express_dev {
      font-size: 16px;
      margin-bottom: 16px;
