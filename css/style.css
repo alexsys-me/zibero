@@ -3687,7 +3687,7 @@
      height: 340px!important;
      background: #d5d4da;
      border-radius: 8px;
-     margin: 20px 0;
+     margin: 20px 0;    overflow: hidden;
  }
  
  .bs_block img {
