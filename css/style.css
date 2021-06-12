@@ -8522,14 +8522,25 @@
  .basket-string .table-head {
      background: #e8e8e8;
      color: #9D9D9D;
-     font-size: 14px;
+     font-size: 14px;height: 19px;
      padding: 8px 15px;    display: flex;
      justify-content: space-between;
  }
  .table-head .infoseting{display: flex;}
- .table-head .infoseting div{margin-left: 15px;    color: #848484}
- .table-head .infoseting .curier:before{ margin-right: 5px; content:url('../images/cetting_place.svg') ;}
- .table-head .infoseting .sam:before{  margin-right: 5px;     float: left;content:url('../images/cetting_sam.svg') ; }
+ .table-head .infoseting div{margin-left: 10px;      white-space: nowrap;  color: #848484}
+ .table-head .infoseting div:before{margin-right: 5px;float: left;}
+ .table-head .infoseting .curier:before{  content:url('../images/cetting_place.svg') ;}
+ .table-head .infoseting .sam:before{    content:url('../images/cetting_sam.svg') ; }
+ .table-head .infoseting .expr{
+    margin: 0;
+    margin-left: 10px;}
+ .table-head .infoseting .expr:before{padding-left: 10px;
+  }
+ .table-head .infoseting .truck:before{content:url('../images/cetting_truck.svg') ; }
+ .table-head .infoseting .auto:before{content:url('../images/cetting_auto2.svg') ;margin-top: -1px; }
+ .table-head .infoseting .post:before{content:url('../images/cetting_post.svg') ;    margin-top: -1px; }
+
+
 
 
  .basket-shop .basket-string .table .row-string .des i {
