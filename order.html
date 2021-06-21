@@ -755,56 +755,136 @@
                     </div>
                     <div id="devilery-4" class="icon-tab-content">
                         <div class="place-map">
-                            <p>Стоимость доставке может измениться</p>
-                            <label>
-                                <input type="checkbox" class="filled-in" >
-                                <span>Подъем на этаж</span>
-                             </label>
-                            <label>
-                                <input type="checkbox" class="filled-in" >
-                                <span>Разгрузка</span>
-                             </label>
-                            <label>
-                                <input type="checkbox" class="filled-in" >
-                                <span>Манипулятор</span>
-                             </label>
-                            <div class="legend">
-                                <div class="data-user">
-                                    <h4>Данные получателя <span>Указывайте реальные данные - у вас могут попросить паспорт, прежде чем вручить оплаченный заказ</span></h4>
+                            <ul class="tabs ">
+                                <li class="tab">
+                                    <a href="#ord-1" > Физ. лицо</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#ord-2">Юр. лицо</a>
+                                </li>                            
+                            
+                            </ul>
+                            <div id="ord-1">
+                                <p>Стоимость доставке может измениться</p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" >
+                                    <span>Подъем на этаж</span>
+                                 </label>
+                                <label>
+                                    <input type="checkbox" class="filled-in" >
+                                    <span>Разгрузка</span>
+                                 </label>
+                                <label>
+                                    <input type="checkbox" class="filled-in" >
+                                    <span>Манипулятор</span>
+                                 </label>
+                                <div class="legend">
+                                    <div class="data-user">
+                                        <h4>Данные получателя <span>Указывайте реальные данные - у вас могут попросить паспорт, прежде чем вручить оплаченный заказ</span></h4>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="adres" type="text" class="validate">
+                                        <label for="adres">Населенный пункт</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate">
+                                        <label for="home">Улица, дом</label>
+                                    </div>
+                                    <div class="input-field col s4"> 
+                                        <input id="part" type="text">
+                                        <label for="part">Подъезд </label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="flat" type="text" class="validate">
+                                        <label for="flat">Квартира </label>
+                                    </div>
+                                  
+                                    <div class="input-field col s12">
+                                        <input id="name" type="text" class="validate">
+                                        <label for="name">Фамилия имя отчество</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="mail" type="text" class="validate">
+                                        <label for="mail">"Электронная почта</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="phone" type="text" class="validate">
+                                        <label for="phone">Ваш телефон</label>
+                                    </div>
                                 </div>
-                                <div class="input-field col s12">
-                                    <input id="adres" type="text" class="validate">
-                                    <label for="adres">Населенный пункт</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input id="home" type="text" class="validate">
-                                    <label for="home">Улица, дом</label>
-                                </div>
-                                <div class="input-field col s2">
-                                    <input id="part" type="text">
-                                    <label for="part">Подъезд </label>
-                                </div>
-                                <div class="input-field col s2">
-                                    <input id="flat" type="text" class="validate">
-                                    <label for="flat">Квартира </label>
-                                </div>
-                                <div class="input-field col s2">
-                                    <input id="domofon" type="text" class="validate">
-                                    <label for="domofon">Домофон</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input id="name" type="text" class="validate">
-                                    <label for="name">Фамилия имя отчество</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input id="mail" type="text" class="validate">
-                                    <label for="mail">"Электронная почта</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input id="phone" type="text" class="validate">
-                                    <label for="phone">Ваш телефон</label>
+
+                            </div>
+                            <div id="ord-2">
+                                <div class="legend">
+                                
+                                    <div class="input-field col s6">
+                                        <input id="adres" type="text" class="validate" placeholder="Организаионная правовая форма">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Наименование">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="ИНН">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="ОКПО">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="ОГРН">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="ОКНХ">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Телефон">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Электроная почта">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Индекс">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Город">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Адрес">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Субъект федерации">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Федеранльный округ">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Фио руководителя">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Телефон руководителя">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Номер счета">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Наименования банка">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Сведения о размере НДС">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="ЮИК банка">                                      
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="home" type="text" class="validate"  placeholder="Коресподенсткий счет">                                      
+                                    </div>
+                         
+                                    <Button class="btn blue">Выставить счет</Button>
+                                    <Button>Скачать</Button>
+                              
                                 </div>
                             </div>
+
+                       
 
                         </div>
                     </div>

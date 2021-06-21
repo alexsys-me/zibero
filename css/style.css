@@ -9710,7 +9710,17 @@
  .place-map {
      width: 100%;
  }
- 
+ .place-map .tabs { margin-bottom: 30px;}
+ .place-map .tab a.active{ color:#fff!important;background: #4a4d97;}
+ .place-map .tab a
+ {    color:#4a4d97;
+    background: #e2e7fa; margin-right: 15px;
+    display: block;
+    width: 150px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;}
  .place-setting {
      float: left;
  }
