@@ -3349,7 +3349,7 @@
  .bas .img-wrapper {
      float: left;
      overflow: hidden;
-     max-height: 100px;    min-width: 80px;
+     max-height: 100px;    min-width: 88px;
  }
  
  .bas .row strong {
@@ -4961,11 +4961,11 @@
      display: -webkit-flex;
      display: -moz-flex;
      display: -ms-flex;
-     display: -o-flex;
+     display: -o-flex;border-radius: 3px;
      display: flex;
-     border-bottom: 1px solid #cfcfcf;
+     border: 1px solid #FF3541;
      padding: 5px 0;
-     margin-bottom: 10px;
+     margin-top: 10px;justify-content: space-between;
  }
  
  .basket-shop .basket-string .table .row-string.odd {
@@ -4974,7 +4974,7 @@
  
  .basket-shop .basket-string .table .row-string img {
      margin-right: 10px;
-     max-width: 60px;
+     max-width: 80px;
  }
  
  .choice {
@@ -5069,11 +5069,14 @@
      display: -ms-flex;
      display: -o-flex;
      display: flex;
-     -ms-align-items: center;
-     align-items: center;
+     -ms-align-items:flex-start;
+     align-items:flex-start;
      padding-left: 15px;
      color: #343435;
      font-size: 16px;    width: 440px;
+     
+     padding-top: 10px;
+     padding-bottom: 10px;
  }
  
  .basket-shop .basket-string .table .row-string .des a {
@@ -5227,13 +5230,10 @@
      font-weight: 500;
  }
  
- .row-string .stat-setting {
-     display: flex;
-     width: 40px;
-     flex-wrap: wrap;
-     flex-direction: column;
- }
- 
+.des .expr{ margin-left: -0;}
+.des .expr strong{ font-size: 14px;}
+.des .today{ margin-bottom: 20px;}
+.des .today strong{ font-size: 14px;}
  .basket-shop .basket-string .table .row-string .total-summ p {
      margin-top: 5px;
      width: 100%;
@@ -5248,7 +5248,7 @@
      display: block;
      width: 16px;
      height: 17px;
-     margin-bottom: 12px;
+     
      margin-top: 18px;
  }
  
@@ -5258,7 +5258,8 @@
      display: block;
      width: 15px;
      height: 15px;
-     margin-bottom: 15px
+     margin-top: 25px;
+     margin-left: 20px;
  }
  
  .basket-shop .basket-string .table .row-string .total-summ p.special-sum {
@@ -7184,7 +7185,7 @@
  }
  
  .today strong {
-     background: #d3d3d3 url(../images/roket.svg) no-repeat 7px 2px;
+     background: #ECF0FD url(../images/roket.svg) no-repeat 7px 2px;
      color: #474d9b;
      padding: 4px 5px 4px 25px;
      border-radius: 3px;
@@ -9975,7 +9976,7 @@
      color: #4a4d97;
  }
  
- .grafbg .collapsible {}
+
  
  .populartovar {
      width: 100%;
@@ -11078,3 +11079,43 @@
 #enter  form input[type="submit"]{    background: #474d9b; color:#fff; font-weight: bold;}
 #enter  form input[type="button"]{      background: #e4e4e4;}
 #enter .phone-input{display: flex;}
+
+.place-map .autoresults{    max-width: 600px;}
+.singlsum {display: flex;border-bottom: 1px solid #a7a7a7; padding-bottom: 10px; margin-bottom: 10px;    align-items: flex-end;}
+.singlsum p{ font-size: 20px; color:#4B4B4B;}
+.singlsum span{}
+.basket-string  .singlsum .select-dropdown {    border: 1px solid #A7A7A7;
+    padding-left: 10px;    margin-bottom: 0;
+    box-sizing: border-box;    height: 35px;
+
+}
+.basket-string  .singlsum  .select-wrapper .caret{    fill: rgb(0 0 0 / 48%);
+    border-left: 1px solid #79797978;    }
+.basket-string  .singlsum .select-wrapper{ margin-left: 20px; max-width: 60px;}
+
+.best-price{    color: white;
+    background: #ff3843;
+    padding: 4px 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 3px;margin-top: 5px;
+    width: 156px;
+    display: block;}
+    .best-price span{           margin: 0;
+        font-size: 13px;
+        display: block;
+        line-height: 12px;
+        
+    }
+    .best-price:before{    content: 'Z';
+        display: inline-block;
+        border: 1.5px dashed #fff;
+        margin-right: 6px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        margin-top: 3px;
+        float: left;
+        text-align: center;
+        line-height: 16px;
+        font-size: 12px;}
