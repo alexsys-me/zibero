@@ -5203,10 +5203,9 @@
      flex-wrap: wrap;
      -ms-align-items: flex-start;
      align-items: flex-start;
-     border-left: 1px solid #c1c1c1;
-     border-right: 1px solid #c1c1c1;
+  
  }
- 
+ .singlsum+div{    margin-left: 60px;}
  .basket-shop .basket-string .table .row-string .count span {
      margin-right: 10px;
  }
@@ -5227,7 +5226,7 @@
      align-items: flex-start;
      padding-top: 10px;
      padding-left: 15px;
-     font-weight: 500;
+     font-weight: 500;    max-width: 34%;
  }
  
 .des .expr{ margin-left: -0;}
@@ -8175,7 +8174,8 @@
      margin-right: 30px;
      border: 1px solid #e0e0e0!important;
      padding-left: 15px;
-     background: transparent;
+     background: transparent;    height: 40px;
+     box-sizing: border-box;
  }
  
  .date-field,
@@ -8344,7 +8344,9 @@
  }
  
  .order-data_prod {
-     border-bottom: 1px solid #ccc
+     border-bottom: 1px solid #ccc;
+     padding: 10px 20px;
+}
  }
  
  .order-data_des {
@@ -10357,7 +10359,7 @@
  
  .order-data_prod-line img {
      margin-right: 10px;
-     width: 60px;
+     height: 60px;
  }
  
  .setting_filtr {
