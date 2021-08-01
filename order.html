@@ -757,27 +757,62 @@
                         <div class="place-map">
                             <ul class="tabs ">
                                 <li class="tab">
-                                    <a href="#ord-1" > Физ. лицо</a>
+                                    <a href="#ord-1"> Физ. лицо</a>
                                 </li>
                                 <li class="tab">
                                     <a href="#ord-2">Юр. лицо</a>
-                                </li>                            
-                            
+                                </li>
+
                             </ul>
                             <div id="ord-1">
                                 <p>Стоимость доставке может измениться</p>
-                                <label>
+                                <div class="dostavkalabel">
+                                    <label>
                                     <input type="checkbox" class="filled-in" >
                                     <span>Подъем на этаж</span>
-                                 </label>
-                                <label>
+                                  </label>
+                                    <div class="sublabel">
+                                        <span>Укажите номер этажа
+                                        <input type="text" /></span>
+                                        <div class="subl">
+                                            <label>
+                                                <input type="checkbox" class="filled-in" >
+                                                <span>Лифт</span>
+                                              </label>
+                                            <label>
+                                                <input type="checkbox" class="filled-in" >
+                                                <span>Грузовой лифт</span>
+                                              </label>
+                                            <label>
+                                                <input type="checkbox" class="filled-in" >
+                                                <span>Технический этаж</span>
+                                        </label></div>
+
+
+                                        <label>
+                                            <input type="checkbox" class="filled-in" >
+                                            <span style="max-width: 100%;width: 100%; display:block">Нужно нести груз от машины более 50 м</span>
+                                          </label>
+                                        <br/>
+                                        <span>Укажите сколько метров
+                                            <input type="text" />
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                                <div class="dostavkalabel"> <label>
                                     <input type="checkbox" class="filled-in" >
                                     <span>Разгрузка</span>
-                                 </label>
-                                <label>
+                                 </label></div>
+                                <div class="dostavkalabel"><label>
                                     <input type="checkbox" class="filled-in" >
                                     <span>Манипулятор</span>
                                  </label>
+                                </div>
+
+
+
                                 <div class="legend">
                                     <div class="data-user">
                                         <h4>Данные получателя <span>Указывайте реальные данные - у вас могут попросить паспорт, прежде чем вручить оплаченный заказ</span></h4>
@@ -790,7 +825,7 @@
                                         <input id="home" type="text" class="validate">
                                         <label for="home">Улица, дом</label>
                                     </div>
-                                    <div class="input-field col s4"> 
+                                    <div class="input-field col s4">
                                         <input id="part" type="text">
                                         <label for="part">Подъезд </label>
                                     </div>
@@ -798,7 +833,7 @@
                                         <input id="flat" type="text" class="validate">
                                         <label for="flat">Квартира </label>
                                     </div>
-                                  
+
                                     <div class="input-field col s12">
                                         <input id="name" type="text" class="validate">
                                         <label for="name">Фамилия имя отчество</label>
@@ -816,75 +851,75 @@
                             </div>
                             <div id="ord-2">
                                 <div class="legend">
-                                
+
                                     <div class="input-field col s6">
-                                        <input id="adres" type="text" class="validate" placeholder="Организаионная правовая форма">                                      
+                                        <input id="adres" type="text" class="validate" placeholder="Организаионная правовая форма">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Наименование">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Наименование">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="ИНН">                                      
+                                        <input id="home" type="text" class="validate" placeholder="ИНН">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="ОКПО">                                      
+                                        <input id="home" type="text" class="validate" placeholder="ОКПО">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="ОГРН">                                      
+                                        <input id="home" type="text" class="validate" placeholder="ОГРН">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="ОКНХ">                                      
+                                        <input id="home" type="text" class="validate" placeholder="ОКНХ">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Телефон">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Телефон">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Электроная почта">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Электроная почта">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Индекс">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Индекс">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Город">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Город">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Адрес">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Адрес">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Субъект федерации">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Субъект федерации">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Федеранльный округ">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Федеранльный округ">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Фио руководителя">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Фио руководителя">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Телефон руководителя">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Телефон руководителя">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Номер счета">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Номер счета">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Наименования банка">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Наименования банка">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Сведения о размере НДС">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Сведения о размере НДС">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="ЮИК банка">                                      
+                                        <input id="home" type="text" class="validate" placeholder="ЮИК банка">
                                     </div>
                                     <div class="input-field col s4">
-                                        <input id="home" type="text" class="validate"  placeholder="Коресподенсткий счет">                                      
+                                        <input id="home" type="text" class="validate" placeholder="Коресподенсткий счет">
                                     </div>
-                         
+
                                     <Button class="btn blue">Выставить счет</Button>
                                     <Button>Скачать</Button>
-                              
+
                                 </div>
                             </div>
 
-                       
+
 
                         </div>
                     </div>
@@ -979,9 +1014,14 @@
 					<div class="row"><p>Товары (2)</p><strong>4 600<span>руб</span></strong>
                     </div>
                     <div class="row">
-                        <p>Доставка курьером</p><strong>300<span>руб</span></strong></div>
+                        <p>Подъем на этаж</p><strong>300<span>руб</span></strong></div>
                     <div class="row">
-                        <p>С учетом скидки по промокоду</p><strong>4 300<span>руб</span></strong></div>
+                        <p>Манипулятор</p><strong>4 300<span>руб</span></strong></div>
+                    <div class="row">
+                        <p><strong>Доставка</strong></p><strong>4 300<span>руб</span></strong></div>
+
+                    <div class="row">
+                        <p><strong>Разгрузка</strong></p><strong>4 300<span>руб</span></strong></div>
                     <br/>
                     <div class="row total-max">
                         <p>Итого к оплате</p><strong>4 600<span>руб</span></strong></div>
