@@ -406,3 +406,139 @@
          z-index: 10;
          display: block;
      }
+
+     .order_sort{ display: flex; justify-content: space-between;}
+     .order_date a{    font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;    height: 20px;
+        line-height: 20px;
+        color: #474D9B;
+        background: #ECEDFF;
+        display: inline-block;
+        padding: 4px 15px;
+        border-radius: 3px;
+    }
+    .order_date a:hover{   background:  #474D9B;
+        color: #ECEDFF;}
+     .top_menu{
+       display: flex;
+       border-bottom: 1px solid #ccc;
+       padding-bottom: 15px;
+       margin-bottom: 15px;
+     }
+     .top_menu a{font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;        
+        color: #A6A9CF;
+        margin-right: 40px;
+        }
+.top_menu a.active{color: #474D9B;}
+.top_menu a sup {font-size: 12px; color: #474D9B; margin-left: 5px; margin-top: -10px;}
+.order_prod{ border: 1px solid #EFF0F9; margin-bottom: 50px; background: #FBFBFD;}
+.order_title{ background: #EFF0F9; padding: 17px 30px;display: flex;    justify-content: space-between;} 
+.order_title p{font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+    line-height: 26px;color: #4B4C58;}
+
+.order_title span{color: #4A4D97;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.order_title div:last-child{ text-align: right;}
+.order_row{ display: flex;justify-content: space-between;    align-items: center;}
+.order_st ul{ display: none; padding: 30px; position: absolute;    width: 350px;
+    background: #fff; z-index:999;
+    box-shadow: 0 0 30px #0000001c;margin-top: 30px;
+    margin-left: -40px;}
+.order_st ul:before{ 
+    content: '';
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45deg);
+    left: 52px;
+
+}
+.order_check{ padding: 20px;}
+.order_check button{
+    border: 1px solid #575A83;
+    box-sizing: border-box;
+    border-radius: 3px; color:#474D9B;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap; 
+    background: transparent;
+    line-height: 19px;
+    text-align: center; 
+    padding: 15px 20px;
+}
+.order_check button:hover{background: #eff0f9;}
+.order_st div{  
+    border-radius: 3px;
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 11px;
+    display: block;
+    margin-top: -7px;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.order_img img{ max-height: 100px;}
+
+.order_row p {color:#4B4B4B;font-weight: 500;
+    font-size: 20px;    margin-bottom: 6px;
+    line-height: 23px;}
+.order_descr p{ font-size:18px;}
+.order_descr span{ display: block; color:#A8A8A9;font-size: 13px;
+    line-height: 15px;}
+    .order_descr a{font-size: 13px; color:#474D9B}
+.order_sort .select-wrapper input.select-dropdown{    font-size: 13px;
+    line-height: 10px;
+    border: 1px solid #d6d6d6;
+    padding: 5px;    height: 30px;
+    box-sizing: border-box;
+}
+.select-wrapper .caret{top: -9px;}
+.order_st{ position: relative;}
+.order_st:hover ul{ display: block;}
+
+.order_st ul li{
+    padding-bottom: 10px;
+    margin: 0;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+} 
+.order_st ul li:before{    position: absolute;
+    content: '';
+    border: 1px solid #ccc;
+    margin-left: -31px;
+    display: block;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background: #fff;}
+
+.order_st ul li p{font-weight: 500;   font-size: 16px;color: #61616B; margin-bottom: 0px;  line-height: 19px;}
+.order_st ul li span{font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;color: #A8A8A9;
+}
+
+.order_st div.status_1,.order_st  li.status_1:before {  background: #FF3541; color:#fff;}
+.order_st div.status_2,.order_st  li.status_2:before {  background: #9FA0B8; color:#fff;}
+.order_st div.status_3,.order_st  li.status_3:before {  background: #CACBE1; color:#fff;}
+.order_st div.status_4,.order_st  li.status_4:before {  background: #474D9B; color:#fff;}
+.order_st div.status_5,.order_st  li.status_5:before {  background: #676882; color:#fff;}
