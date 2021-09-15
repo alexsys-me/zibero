@@ -574,3 +574,6 @@
 .dev-model .col strong{ display: block; text-align: center; width: 100%; font-weight: bold; margin-bottom: 40px; font-size: 26px;}
 .dev-model .col img{ display: block; margin-bottom: 40px; margin-top: 10px;}
 .dev-model .col p{ font-size:18px;line-height: 24px; max-width: 80%;}
+
+#authorize_block center{    text-align: left;}
+#authorize_block center .btn{      line-height: 60px;   height: 60px!important;}
