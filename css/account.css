@@ -577,3 +577,43 @@
 
 #authorize_block center{    text-align: left;}
 #authorize_block center .btn{      line-height: 60px;   height: 60px!important;}
+.btn_sec{ display: flex; margin-left: -10px; margin-top: 40px;}
+.btn_sec .btn{ width: 320px; border-radius: 0;font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;}
+.whiteform .input-field{ margin-bottom: 10px; margin-top: 10px;}
+.whiteform .input-field input{ margin-bottom: 0px; }
+.clean{     margin: 20px 0; height: 5px; background-color: #F4F4F4;
+    display: block;
+    width: 100%;}
+.input-field  h3{color: #7C7C8E;font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; text-align: left; padding: 15px 0;}
+    .upload .btn-tertiary{color:#555;padding:0;line-height:40px;width:320px;margin:auto;display:block;border: 1px solid #E3E3E3;}
+    .upload .btn-tertiary:hover,.upload .btn-tertiary:focus{color:#888;border-color:#888}
+    .upload .input-file{width:.1px;height:.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
+    .upload .input-file + .js-labelFile{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:10px 15px;cursor:pointer}
+    .upload .input-file + .js-labelFile .icon{
+        height: 100%;
+    background: #4a4d97;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 100px;
+    color: #fff;
+    } 
+    .js-labelFile .icon:before{content:''; background: url(../images/upload.svg);display: block;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        position: absolute;
+        right: 38px;
+        top: 16px;}
+    .form-group{    position: relative;}
+    .upload .input-file + .js-labelFile.has-file .icon:before{content:"\f00c";color:#5AAC7B}
+    .js-fileName{    text-transform: none;    top: 11px;position: absolute;font-size: 15px;left: 17px;}
+
+    .addrow{ display: block; border: 1px solid #E3E3E3; width: 50px; height: 50px; position: relative; text-align:center; line-height: 55px; cursor: pointer;}
+    .addrow:before{content:'+'; color:#C0C0C0; font-size: 28px ; font-weight: 300;} 
+    .addrow:hover{ border: 1px solid #878BC8;background: #878BC8;}
+    .addrow:hover:before{ color:#fff}

@@ -401,35 +401,36 @@
                 </div>
             </div>
             <div class="center-col ">
-                <div class="acc-title">Добавление магазина</div> 
+                <div class="acc-title">Верификация</div> 
                 <br>
-               <p>Внимательно заполните поля ниже</p>
+               <p>Для  работы вашего магазина, обязательно укажите верно все данные и пришлите необходимые документы. После прохождения модерации ваш магазин будет в публичном доступе</p>
                <form action="" class="whiteform">
-                     <div class="input-field col s12"><input  type="text"  placeholder="Название магазина"></div>
+                    <div class="input-field col s12">
+                        <input id="adres" type="text" class="validate"  placeholder="Организационная правовая форма">  
+                    </div>
+
+                    <div class="input-field col s4"><input  type="text"  placeholder="ИНН"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="ОКПО"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="ОГРН"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="ОКНХ"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Телефон"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Электронная почта"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Индекс"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Регион"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Город"></div>
                     <div class="input-field col s12"><input  type="text"  placeholder="Адрес"></div>
-                    <div class="input-field col s12"><input  type="text"  placeholder="Индекс "></div>
-                    <div class="input-field col s12"><input  type="text"  placeholder="ФИО ответсвенного"></div>
-                    <div class="input-field col s12"><input  type="text"  placeholder="Телефон ответсвеного"></div>
-                    <h3>График работы</h3>
+                   <div class="clean"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Телефон руководителя"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Номер счета"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Наименования банка"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Бик Банка"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="Коресподенсткий счет"></div>
+                    <div class="input-field col s4"><input  type="text"  placeholder="НДС"></div>
                     <div class="clean"></div>
-
-                    <h2>Товароведы</h2>
-                    <div class="input-field col s12"><input  type="text"  placeholder="Телефон товароведа  "></div>
-                    <div class="input-field col s12"><input  type="text"  placeholder="ФИО товароведа "></div>
-                    <div class="addrow"></div>
- 
-                    <div class="clean"></div>
-
-                    <h2>Курьеры </h2>
-                    <div class="input-field col s12"><input  type="text"  placeholder="Телефон курьера"></div>
-                    <div class="input-field col s12"><input  type="text"  placeholder="ФИО курьера"></div>
-                    <div class="addrow"></div>
-                    <div class="clean"></div>
-                    <h2>Фото магазина</h2>
-                    <br>
-                    <br>
+                    <h2>Потверждающие документы</h2>
+                
                     <div class="input-field  col s12">
-                        
+                            <h3>Лицензия</h3>
                             <div class="upload col s12">
                                 <div class="form-group">
                                     <input type="file" name="file" id="file" class="input-file">
@@ -440,11 +441,19 @@
                                 </div>
                                 </div>
                     </div>
-                    <div class="clean"></div>
-                    <h2>Описание </h2>
-                    <br>
-                    <br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="input-field  col s12">
+                        <h3>Лицензия</h3>
+                        <div class="upload">
+                            <div class="form-group">
+                                <input type="file" name="file" id="file" class="input-file">
+                                <label for="file" class="btn btn-tertiary js-labelFile">
+                                <i class="icon fa fa-check"></i>
+                                <span class="js-fileName">Выбрать файл</span>
+                                </label>
+                            </div>
+                            </div>
+                </div>
+                        
 
                     <div class="btn_sec">
                         <input type="submit" class="btn blue" value="Сохранить">
