@@ -11483,6 +11483,11 @@ input[type=submit].modal-close {
     width: 400px;
 }
 
+.inside_blok .row {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 .enter_to {
     font-weight: bold;
     font-size: 16px;
