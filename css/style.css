@@ -11491,6 +11491,7 @@ input[type=submit].modal-close {
     width: 100%;
     display: block;
     text-align: center;
+    margin: auto;
 }
 
 .enter_to:hover {
@@ -11722,4 +11723,10 @@ input[type=submit].modal-close {
 
 .place-window .places_name {
     padding-right: 0px;
+}
+
+.whiteform .inside_blok a.enter_to {}
+
+.whiteform label {
+    margin-right: 10px;
 }
