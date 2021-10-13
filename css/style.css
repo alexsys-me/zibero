@@ -9354,6 +9354,10 @@ input[type=submit].modal-close {
     margin-bottom: 40px;
 }
 
+.our_geo {
+    margin-bottom: 100px;
+}
+
 .our_geo .carousel-element p {
     color: #25253a;
     text-align: center;
@@ -11734,4 +11738,17 @@ input[type=submit].modal-close {
 
 .whiteform label {
     margin-right: 10px;
+}
+
+.our_geo .slick-slide {
+    width: 100px!important;
+}
+
+.our_geo .slick-list {
+    max-width: 1300px;
+}
+
+.our_geo .slick-track {
+    display: flex;
+    justify-content: space-between;
 }
