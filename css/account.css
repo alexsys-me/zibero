@@ -95,7 +95,11 @@
          justify-content: flex-start;
          align-items: flex-start;
      }
-     .wrapper.nowr{ flex-wrap: nowrap;}
+     
+     .wrapper.nowr {
+         flex-wrap: nowrap;
+     }
+     
      .content .center-col {
          flex: 1;
          position: relative;
@@ -516,12 +520,14 @@
          display: flex;
          justify-content: flex-start;
          align-items: center;
+         border-top: 1px solid #e2e4f5;
      }
      
      .order_img {
          max-width: 100px;
-         margin-bottom: 5px;
-         margin-left: 5px;
+         margin-bottom: 10px;
+         margin-left: 10px;
+         margin-top: 10px
      }
      
      .order_descr {
@@ -595,7 +601,8 @@
          border-radius: 3px;
          position: absolute;
          padding: 2px 5px;
-         font-size: 11px;    white-space: nowrap;
+         font-size: 11px;
+         white-space: nowrap;
          display: block;
          margin-top: -7px;
          margin-left: 10px;
@@ -662,6 +669,11 @@
          position: relative;
      }
      
+     .order_st div.status_1 {
+         margin-left: 620px;
+         margin-top: -10px;
+     }
+     
      .order_st ul li:before {
          position: absolute;
          content: '';
@@ -670,8 +682,17 @@
          display: block;
          border-radius: 50%;
          width: 18px;
+         bottom: 40%;
          height: 18px;
          background: #fff;
+     }
+     
+     .order_st ul li:first-child:before {
+         top: 0
+     }
+     
+     .order_st ul li:last-child:before {
+         bottom: 0
      }
      
      .order_st ul li p {
