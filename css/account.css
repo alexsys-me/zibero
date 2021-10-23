@@ -659,19 +659,29 @@
          display: block;
      }
      
+     .order_st ul:after {
+         content: '';
+         border-left: 1px solid #ccc;
+         position: absolute;
+         width: 1px;
+         left: 38px;
+         top: 43px;
+         height: 200px;
+         z-index: -1;
+     }
+     
      .order_st ul li {
          padding-bottom: 10px;
          margin: 0;
-         border-left: 1px solid #ccc;
          padding-left: 20px;
          box-sizing: border-box;
          margin-left: 10px;
          position: relative;
+         text-align: left;
      }
      
-     .order_st div.status_1 {
-         margin-left: 620px;
-         margin-top: -10px;
+     .order_st ul li p {
+         font-size: 14px;
      }
      
      .order_st ul li:before {
@@ -685,14 +695,6 @@
          bottom: 40%;
          height: 18px;
          background: #fff;
-     }
-     
-     .order_st ul li:first-child:before {
-         top: 0
-     }
-     
-     .order_st ul li:last-child:before {
-         bottom: 0
      }
      
      .order_st ul li p {
