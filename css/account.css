@@ -947,7 +947,7 @@
         flex: 1;
         box-sizing: border-box;}
     .whiteform .select-wrapper input{
-        padding-left: 15px;
+        padding-left: 15px;font-size: 14px;
         padding-top: 12px;
     }
     .whiteform .input-field input {
