@@ -68,7 +68,7 @@ $(document).ready(function() {
     $(".menu-triger").click(function() {
         $(".main-menu").slideToggle(200);
     });
-
+    
     $(".main-menu .close").click(function() {
         $(".main-menu").slideToggle(200);
     });

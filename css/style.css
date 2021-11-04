@@ -11752,3 +11752,20 @@ input[type=submit].modal-close {
     display: flex;
     justify-content: space-between;
 }
+.jur{ display: none;}
+.jur.active{ display: block;}
+
+.add_photo{ margin-top: 30px;}
+.add_photo_list{ display: flex; flex-wrap: wrap;}
+.add_photo_upload{width: 130px;  margin-bottom: 10px;
+  cursor: pointer; text-align: center;margin-right: 10px; height: 130px;  background: #F2F3F5;}
+.added_photo{  margin-bottom: 10px;overflow: hidden; width: 130px; height: 130px; margin-right: 10px; border: 1px solid #ccc;}
+.added_photo img{ width: 100%;}
+.add_photo_upload p{     
+     font-size: 11px;
+
+    max-width: 100%;
+    line-height: 14px;
+    
+    padding: 10px;}
+    .add_photo_upload img{ margin:20px auto 10px; }

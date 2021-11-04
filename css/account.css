@@ -939,8 +939,18 @@
          margin-bottom: 10px;
          margin-top: 10px;
      }
-     
-     .whiteform .input-field input {
+     .whiteform .col{overflow: visible;}
+     .whiteform .select-wrapper{position: relative;
+        border: 1px solid #e3e3e3;
+        height: 60px;
+        margin-top: 10px;
+        flex: 1;
+        box-sizing: border-box;}
+    .whiteform .select-wrapper input{
+        padding-left: 15px;
+        padding-top: 12px;
+    }
+    .whiteform .input-field input {
          margin-bottom: 0px;
      }
      
