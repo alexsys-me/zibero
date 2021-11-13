@@ -9,11 +9,10 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="css/account.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="css/owl.transitions.css" type="text/css" rel="stylesheet" media="screen,projection" />
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 </head>
 
@@ -343,18 +342,16 @@
 	</header>
 	<div class="content wrapper ">
 
-		<div class="private-menu">
-			<ul>
-				<li><a href="">ЛИЧНЫЙ КАБИНЕТ</a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/user/cards/">МОИ КАРТЫ </a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/user/feedbacks/">ОТЗЫВЫ</a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/publichnaya-oferta/">ОФЕРТА</a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/user/checks/">ЧЕКИ</a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/user/checkorder/">КОНТРОЛЬ ЗАКАЗА</a></li>
-				<li><a href="https://pervaya-yuridicheskaya-gruppa.ru/user/logout">ВЫХОД</a></li>
-			</ul>
+		<div class="breadcrum">
+			<div class="wrapper">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Продукты питания</a></li>
+					<li><span>Чай косе, какао</span></li>
+				</ul>
+			</div>
 		</div>
-		<div class="wrapper">
+		<div class="wrapper ">
 			<div class="left-col">
 
 				<div class="account-menu">
@@ -412,109 +409,51 @@
 					<a href="https://pervaya-yuridicheskaya-gruppa.ru/kaidzen">Написать</a>
 				</div>
 			</div>
-			<div class="center-col ">
-				<div class="acc-title">Добавление магазина</div>
-				<br>
-				<p>Внимательно заполните поля ниже</p>
-				<form action="" class="whiteform">
-					<div class="input-field col s12"><input type="text" placeholder="Название магазина"></div>
-					<div class="input-field col s12"><input type="text" placeholder="Адрес"></div>
-					<div class="input-field col s12"><input type="text" placeholder="Индекс "></div>
-					<div class="input-field col s12"><input type="text" placeholder="ФИО ответсвенного"></div>
-					<div class="input-field col s12"><input type="text" placeholder="Телефон ответсвеного"></div>
+			<div class="center-col acc-courier">
+				<div class="acc-title">Курьеры </div>
+				<div class="acount-row">
+					<div class="acount-row_title">
+						<div class="acount-row_name">Иванова В.А</div>
+					</div>
+					<div class="acount-row_action"> <button class="blue btn">Редактировать</button></div>
+				</div>
+				<div class="acount-row">
+					<div class="acount-row_title">
+						<div class="acount-row_name">Иванова В.А</div>
+					</div>
+					<div class="acount-row_action"> <button class="blue btn">Редактировать</button></div>
+				</div>
+				<div class="acount-row">
+					<div class="acount-row_title">
+						<div class="acount-row_name">Иванова В.А</div>
+					</div>
+					<div class="acount-row_action"> <button class="blue btn">Редактировать</button></div>
+				</div>
+				<div class="acount-row">
+					<div class="acount-row_title">
+						<div class="acount-row_name">Иванова В.А</div>
+					</div>
+					<div class="acount-row_action"> <button class="blue btn">Редактировать</button></div>
+				</div>
 
-					<form action="#" class="graph">
-
-						<div class="graph">
-							<div class="graph__col graph-days">
-								<h3 class="graph-title">График работы</h3>
-								<div class="graph__inner">
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text"><span>Пн</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text"><span>Вт</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text"><span>Ср</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text"><span>Чт</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text"><span>Пт</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text day-off"><span>Сб</span></span>
-									</label>
-									<label class="checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<span class="checkbox__text day-off"><span>Вс</span></span>
-									</label>
-								</div>
-							</div>
-							<div class="graph__col graph-time">
-								<h3 class="graph-title">Время работы</h3>
-								<div class="graph__inner">
-									<input autocomplete="off" type="time" value="6:00" name="form[]" class="input">
-									<span></span>
-									<input autocomplete="off" type="time" name="form[]" class="input">
-								</div>
-							</div>
-
-						</div>
-
+				<div class="acc-courier_add">
+					<div class="add-courier_title"></div>
+					<form action="#">
+						<input autocomplete="off" type="text" name="form[]" class="add-courier_input"
+							placeholder="Телефон курьера">
+						<input autocomplete="off" type="text" name="form[]" class="add-courier_input"
+							placeholder="ФИО курьера">
+						<select name="form[]" class="form">
+							<option value="1" selected="selected">Выбрать товароведа</option>
+							<option value="2">Выбрать товароведа</option>
+							<option value="3">Выбрать товароведа</option>
+							<option value="4">Выбрать товароведа</option>
+						</select>
+						<button type="submit" class="big blue btn">Добавить магазин</button>
 					</form>
 
+				</div>
 
-					<div class="clean"></div>
-
-					<h2>Товароведы</h2>
-					<div class="input-field col s12"><input type="text" placeholder="Телефон товароведа  "></div>
-					<div class="input-field col s12"><input type="text" placeholder="ФИО товароведа "></div>
-					<div class="addrow"></div>
-
-					<div class="clean"></div>
-
-					<h2>Курьеры </h2>
-					<div class="input-field col s12"><input type="text" placeholder="Телефон курьера"></div>
-					<div class="input-field col s12"><input type="text" placeholder="ФИО курьера"></div>
-					<div class="addrow"></div>
-					<div class="clean"></div>
-					<h2>Фото магазина</h2>
-					<br>
-					<br>
-					<div class="input-field  col s12">
-
-						<div class="upload col s12">
-							<div class="form-group">
-								<input type="file" name="file" id="file" class="input-file">
-								<label for="file" class="btn btn-tertiary js-labelFile">
-									<i class="icon fa fa-check"></i>
-									<span class="js-fileName">Выбрать файл</span>
-								</label>
-							</div>
-						</div>
-					</div>
-					<div class="clean"></div>
-					<h2>Описание </h2>
-					<br>
-					<br>
-					<textarea name="" id="" cols="30" rows="10"></textarea>
-
-					<div class="btn_sec">
-						<input type="submit" class="btn blue" value="Сохранить">
-						<input type="submit" class="btn grey" value="Редактировать">
-
-					</div>
-
-				</form>
 			</div>
 			<div class="right-col"></div>
 		</div>
@@ -593,25 +532,7 @@
 		</div>
 	</footer>
 	<!-- Body END  -->
-	<script>
-		(function () {
 
-			'use strict';
-
-			$('.input-file').each(function () {
-				var $input = $(this),
-					$label = $input.next('.js-labelFile'),
-					labelVal = $label.html();
-
-				$input.on('change', function (element) {
-					var fileName = '';
-					if (element.target.value) fileName = element.target.value.split('\\').pop();
-					fileName ? $label.addClass('has-file').find('.js-fileName').html(fileName) : $label.removeClass('has-file').html(labelVal);
-				});
-			});
-
-		})();
-	</script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/materialize.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
