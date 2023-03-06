@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fiberam - Интернет магазин</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/chat.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+
+<body>
+
+ <div class="ichat zibero">
+
+    <div class="ichat-icon">
+        <div class="ichat-icon_status active"></div>       
+        <img src="img/chat.svg" alt="" class="ichat-icon_img">
+        <div class="ichat-icon_mesage active">Возникли вопросы? Задайте их нам. Мы online!</div>
+    </div>
+   
+
+
+
+    <div class="ichat-body ">
+        <div class="ichat-body_header">
+            <div class="ichat-body_header-user">
+                <img src="img/user.jpg" alt="">
+                <div class="ichat-body_header-status active">
+                    <strong>Наталья</strong>
+                    <span>Консультант</span>
+                </div>
+                <div class="ichat-body_header-status"></div>
+            </div>
+            <div class="ichat-body_header-close"></div>
+        </div>
+        <div class="ichat-body_body">
+            <div class="ichat-body_wrapper">
+                <div class="ichat-body_chat admin">
+                    <div class="new">Новое сообщение</div>
+                    <div class="ichat-body-nikname">Наталия <span>18 июля 08:29</span></div>
+                   <p>Здравствуйте, 🙏 я на связи. Могу бесплатно сделать аудит вашего сайта или рассчитать бюджет на разработку. Так же проконсультировать или просто пообщаться. Обращайтесь 😃</p> 
+                </div>
+                <div class="ichat-body_chat user">
+                    <div class="ichat-body-nikname">Вы <span>18 июля 08:29</span></div>
+
+                    <p>Подскажите стоимость доставки в Сочи?</p>  
+                </div>
+              
+                <div class="ichat-body_system-info">
+                    <div>Пожалуйста, представьтесь</div> 
+                </div>
+                <br>
+                <div class="ichat-body_form">
+                    <form>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш email">
+                        <input type="text" placeholder="Ваш телефон">
+                        <label for=""><input type="checkbox" >Политика обработки персональных данных</label>
+                        <input type="submit" placeholder="Отправить">
+                    </form>
+                </div>
+                <br>
+                <div class="ichat-body_system-info">
+                    <div>Выберите категорию обращения</div>
+                </div>
+                <br>
+                <div class="ichat-body_kat">
+                    <a href="#">Где мой заказ?</a>
+                    <a href="#">Отмена и взврат</a>
+                    <a href="#">Доставка</a>
+                    <a href="#" class="active"> Редактирование заказа </a>
+                    <a href="#">Акциии</a>
+                </div>
+                <br>
+                <div class="ichat-body_system-info">
+                    <div>Оцените работу оператора</div>
+                </div>
+
+                <div class="ichat-body_stats">
+                    <div class="ichat-body_stats-star">                   
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>                         
+                    </div>                 
+                    <div id="star_message"> 4,9</div>
+                </div>
+
+                <div class="ichat-body_chat user">
+                    <div class="ichat-body-nikname">Вы <span>18 июля 08:29</span></div>         
+                    <img src="img/userpictures.jpg" />
+                </div>
+                <div class="ichat-body_chat user">
+                    <div class="ichat-body-nikname">Вы <span>18 июля 08:29</span></div>
+
+                    <a href="" class="ichat-body-fiels">
+                        <img src="img/pdf.svg" alt="">
+                            <p>missile-program.pdа<span>2mb</span></p>   
+                         
+
+                    </a>                    
+                </div>
+            </div>
+
+        </div>
+        <div class="ichat-body_fotter">
+            <div class="ichat-body_fotter-field"><input type="file" ></div>
+            
+            <div class="ichat-body_fotter-message">
+                <textarea name="" id="" cols="30" rows="1"></textarea>
+                <input type="submit" class="ichat-body_fotter-send">
+            </div>            
+        </div>
+    </div>
+
+</div>
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery.maskedinput.min.js "></script>
+    <script src="js/chat.js "></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".star").on("mouseover", function(){
+                $(".star").slice(0, $(".star").index(this)+1).addClass("star2");
+            });
+            $(".star").on("mouseout", function(){
+                $(".star").slice(0, $(".star").index(this)+1).removeClass("star2");
+            });
+            $(".star").on("click", function(){
+                jQuery.post("change_rating.php", {
+                    obj_id: $(this).parent().attr("id").substr(3),
+                    stars: $(".star").index(this)+1
+                }, notice, "json");
+            });
+            function notice(data){
+                $("#star_rating, #star_votes, #star_message").fadeOut(500, function(){
+                    $("#star_rating").text(data.points);
+                    $("#star_votes").text(data.votes);
+                    $("#star_message").text(data.message);
+                }).fadeIn(1500);
+            }
+        });
+        </script>
+</body>
+
+</html>

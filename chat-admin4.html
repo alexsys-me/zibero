@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fiberam - Интернет магазин</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/chat.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+ <div class="z-chat">
+
+    <div class="z-chat_asside"> 
+
+        <ul class="z-chat_asside-menu tabs">
+            <li  class="tab active"> <a href="#client"><img src="images/client.svg" alt=""> Мои клиенты</a> </li >
+            <li  class="tab "> <div class="stat active"></div> <a href="#wait"><img src="images/wait.svg" alt="">  Ожидают оператора</a> </li >
+            <li class="tab"> <a href="#operators"> <img src="images/operator.svg" alt="">Операторы</a> </li>
+            <li  class="tab"><a href="#live"><img src="images/live.svg" alt=""> Сейчас на сайте</a> </li >
+        </ul>
+
+
+       
+        <div class="z-chat_asside-search"> 
+            <input type=" text" placeholder="Поиск чата">
+            <div class="z-chat_asside-drop"> 
+                <a class='dropdown-trigger' href='#' data-target='date'  > <img src="images/calendar.svg" alt=""> Сегодня</a> 
+                <a class='dropdown-trigger' href='#' data-target='order'><img src="images/sorting.svg" alt="">Сначала новые</a>
+                <ul id='order' class='dropdown-content'>
+                    <li><a href="#!">Старые</a></li>
+                    <li><a href="#!">Не отвеченные</a></li>
+                    <li><a href="#!">Ожидающие ответа</a></li>                    
+                </ul>
+                <ul id='date' class='dropdown-content'>
+                    <li><a href="#!">Вчера </a></li>
+                    <li><a href="#!">За 3 дня</a></li>
+                    <li><a href="#!">Неделя</a></li>                    
+                </ul>
+            </div>
+        </div>
+        <div class="z-chat_asside-users">
+            <div class="z-chat_asside-users-wrapper active" id="client"> 
+                <div class="z-chat_person active" > 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">30 мин назад</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #1 <div class="z-chat_user-descript">В сети</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="notsee"></span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar non-active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Александр Великий <div class="z-chat_user-descript">18 июля 08:29</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="see"></span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">30 мин назад</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #1 <div class="z-chat_user-descript">В сети</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="notsee"></span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar non-active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Александр Великий <div class="z-chat_user-descript">18 июля 08:29</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="see"></span>
+                    </div>
+                </div>
+                  <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">30 мин назад</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #1 <div class="z-chat_user-descript">В сети</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="notsee"></span>
+                    </div>
+                </div>
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar non-active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Александр Великий <div class="z-chat_user-descript">18 июля 08:29</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="see"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="z-chat_asside-users-wrapper" id="wait"> 
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar non-active"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Александр Великий <div class="z-chat_user-descript">18 июля 08:29</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span class="see"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="z-chat_asside-users-wrapper" id="operators"> 
+                <div class="z-chat_person"> 
+                    <div class="z-chat_user"> 
+                        <div class="z-chat_user-avatar"> <img src="img/avatar_1.jpg" alt=""></div>
+                        <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">30 мин назад</div></div>
+                    </div>
+                    <div class="z-chat_status"> 
+                        <span>10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="z-chat_asside-users-wrapper" id="live"> 
+            
+            </div>
+        </div>
+    </div>
+    <div class="z-chat_content">
+        <div class="z-chat_header"> 
+            <div class="z-chat_user"> 
+                <div class="z-chat_user-avatar"><img src="img/avatar_1.jpg" alt=""> </div>
+                <div class="z-chat_user-name">Alexsys <div class="z-chat_user-descript">Консультант</div></div>
+            </div>
+            <div class="z-chat_setting">
+                <a href="#" class="bell active"></a>
+                <a class='dropdown-trigger sett' href='#' data-target='set'></a>
+                <ul id='set' class='dropdown-content'>
+                    <li><a href="#!">События</a></li>
+                    <li><a href="#!">Уведомления</a></li>                   
+                </ul>
+            </div>
+        </div>
+        <div class="z-chat_body"> 
+            <div class="z-chat_body-pane"> 
+                <div class="z-chat_body-pane-wrapper"> 
+                    <div class=" z-chat_report">
+                        <div class="z-chat_user-avatar"><img src="img/avatar_1.jpg" alt=""> </div>
+                        <div class="z-chat_report-mess">
+                            <div class="z-chat_report-text">Мне повредили упаковку при доставке, что я могу с этим сделать?</div>
+                            <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">Вчера </div></div>
+                        </div>
+                    </div>
+                    <div class=" z-chat_report">
+                        <div class="z-chat_user-avatar"><img src="img/avatar_1.jpg" alt=""> </div>
+                        <div class="z-chat_report-mess">
+                            <div class="z-chat_report-text">i woke up calmnnn i put it on the charger the phone was 
+                                turned off next to me i took it out while i was sleeping hsadfkagshdfgsajf 
+                                i slept early girl i slept at 3</div>
+                            <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">Вчера </div></div>
+                        </div>
+                    </div>
+                    <div class="z-chat_report admin">
+                        <div class="z-chat_user-avatar"><img src="img/avatar_1.jpg" alt=""> </div>
+                        <div class="z-chat_report-mess">
+                            <div class="z-chat_report-text">Мне повредили упаковку при доставке, что я могу с этим сделать?</div>
+                            <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">10 мин </div></div>
+                        </div>
+                    </div>
+
+                    <div class=" z-chat_report">
+                        <div class="z-chat_user-avatar"><img src="img/avatar_1.jpg" alt=""> </div>
+                        <div class="z-chat_report-mess">
+                            <div class="z-chat_report-text"> <img src="img/userpictures.jpg" alt=""> Мне повредили упаковку при доставке, что я могу с этим сделать?</div>
+                            <div class="z-chat_user-name">Неизвестный гость #3 <div class="z-chat_user-descript">Вчера </div></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="z-chat_body-asside active">
+                <div class="z-chat_body-asside_close"></div>
+                <div class="z-chat_body-asside_title">Автоответы</div>
+                <div class="z-chat_asside-search"> 
+                    <input type=" text" placeholder="Вводите тему авто ответа">
+                </div>
+                <div class="z-chat_asside-mess">
+                   <div class="z-chat_asside-quest">Попросить заполнить информацию о себе</div>
+                   <div class="z-chat_asside-quest">Условия доставки</div>
+                   <div class="z-chat_asside-quest">Последние изменения по доставки в соответсвии с законом.....</div>
+                   <div class="z-chat_asside-quest active">Еще из приятного: отделы могут быть обязательными для начала диалога, а могут быть скрытыми для клиента....</div>
+                   <div class="z-chat_asside-quest">Последние изменения по доставки в соответсвии с законом.....</div>
+                   <div class="z-chat_asside-quest">Попросить заполнить информацию о себе</div>
+                   <div class="z-chat_asside-quest">Условия доставки</div>
+                   <div class="z-chat_asside-quest">Последние изменения по доставки в соответсвии с законом.....</div>
+                   <div class="z-chat_asside-quest">Еще из приятного: отделы могут быть обязательными для начала диалога, а могут быть скрытыми для клиента....</div>
+                   <div class="z-chat_asside-quest">Последние изменения по доставки в соответсвии с законом.....</div>
+                </div>
+                <div class="z-chat_asside-chat">
+                    <div class="z-chat_asside-chat_title" >Выбранный авто ответ</div>
+                    <textarea name="" id="" cols="30" rows="30">Еще из приятного: отделы могут быть обязательными для начала диалога, а могут быть скрытыми для клиента. Можно гибко настраивать вводное сообщение, приветственное сообщение у каждого отдела </textarea>
+                    <button class="btn edit">Редактировать</button>
+                    <button class="btn">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="z-chat_fotter"> 
+            <div class="z-chat_field"> <input type="file" name="" id=""></div>
+            <textarea name="" id=""  rows="3"></textarea>
+            <button class="send"></button>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/chat.js "></script>
+    
+</body>
+
+</html>
