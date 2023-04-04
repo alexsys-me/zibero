@@ -4707,14 +4707,16 @@ header .select-wrapper .caret {
     border: 1px solid rgba(204, 204, 204, 0.5);
     padding: 25px;
     margin-top: 20px;
-    box-shadow: 0 0 10px #7a7a7a52;
-    border-radius: 6px;
-}
 
+}
+.choice h4{ font-weight: 600;
+    padding-bottom: 20px!Important;
+    display: block;
+    text-align: left;}
 .choice strong {
     display: block;
 }
-
+.choice p{ margin-bottom: 15px!important; display: block;}
 .choice img {
     width: 100%;
     border-radius: 10px;
@@ -7125,7 +7127,7 @@ a.tarif:before {
 
 .construct form {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;overflow: hidden;
 }
 
 .construct form .legend {
@@ -7153,9 +7155,14 @@ a.tarif:before {
     overflow: visible;
     flex: 1;
 }
-
+.card-construct-title h1{    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: #52514f;
+    border-bottom: 1px solid #9a9393;
+    padding-bottom: 10px;}
 .construct .construct-header {
-    flex: 100%;
+    flex: 100%;    height: 60px;
     display: flex;
     border-bottom: 1px solid #474c9d;
     padding-bottom: 5px;
@@ -10512,11 +10519,12 @@ h1.maintitle span {
     font-size: 12px;
     flex: 32%;
 }
-
+.acount-row.t-price { padding: 0;}
 .acount-row_setting.more_data input {
-    display: block;
+    display: block; float: left;
 }
-
+.acount-row_setting.more_data span{    padding-top: 10px;
+    display: block;}
 .acount-row_action .btn {
     background-color: #878bc8;
     border-radius: 0;
@@ -16669,26 +16677,10 @@ header .select-wrapper .caret {
     max-width: 80px;
 }
 
-.choice {
-    border: 1px solid rgba(204, 204, 204, 0.5);
-    padding: 25px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px #7a7a7a52;
-    border-radius: 6px;
-}
-
-.choice strong {
-    display: block;
-}
-
-.choice img {
-    width: 100%;
-    border-radius: 10px;
-}
 
 .btn.red {
     background: #ff3541;
-    border-radius: 5px;
+    border-radius: 5px;    color: #fff;
 }
 
 .btn.red:hover {
@@ -19222,11 +19214,11 @@ a.tarif:before {
     float: right;
 }
 
-.total-card p {
-    font-size: 20px;
-    margin-right: 20px;
+.total-card p, .total-card div {    padding-right: 10px;
+    font-size: 20px;    text-align: right;
+  
 }
-
+.total-card label a{    display: inline-block;}.total-card label a:before{ display: none!important;}
 .total-card span {
     font-size: 14px;
 }
