@@ -742,7 +742,7 @@ input:hover {
     flex: 32%;
 }
 
-.g5 {
+.new-basket  .g5 {
     flex-wrap: nowrap !important;
 }
 
@@ -911,6 +911,11 @@ strong {
     font-weight: bold;
     padding-top: 20px;
 }
+.shop .showcase{
+    flex-wrap: wrap!important;
+
+}
+.shop .showcase .g4 .col{    max-width: 23.5%!important;}
 
 .showcase h4.sell:before {
     content: "\f10e";
@@ -1641,6 +1646,7 @@ h3.alert {
     font-size: 14px;
     padding: 0 25px;
     color: #72728A;
+    white-space: nowrap;
 }
 .second-menu li a:hover{color:#474D9B; font-weight: 600px;}
 header .search input.search-field {
@@ -6779,7 +6785,7 @@ header+.company-data {
     margin-top: -65px;
 }
 
-.showcase {
+.new-basket .showcase {
     width: 100%;flex-wrap: nowrap!important; display: flex;
 }
 
@@ -8920,11 +8926,11 @@ input[type=submit].modal-close {
 
 .dostavaka_photo {
     position: relative;
-    height: 200px;
+    height: 440px;
 }
 
 .dostavaka_photo img {
-    height: 100%;
+    height: 100%;    width: 100%;
 }
 
 .component h1 {
@@ -8959,12 +8965,12 @@ input[type=submit].modal-close {
 .our_better_icons {
     width: 100%;
 }
-
+.our_better_icons .subtitle{ text-align: center;}
 .our_better_icons-wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .our_better_icons-item {
@@ -9587,18 +9593,7 @@ input[type=submit].modal-close {
     margin-bottom: 20px;
 }
 
-.subtitle {
-    flex: 100%;
-    text-align: center;
-    font-weight: 500;
-    color: #5C5D78;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 47px;
-    margin-top: 40px !important;
-    margin-bottom: 20px;
-    display: block;
-}
+
 
 .our_numbers {
     background: rgba(219, 223, 240, 0.57);
@@ -13566,7 +13561,7 @@ h3.alert {
     text-transform: none;
     font-weight: 300;
     font-size: 14px;
-    padding: 0 10px;
+    padding: 0 10px;    white-space: nowrap;
 }
 
 
@@ -20932,10 +20927,10 @@ h1.maintitle span {
 
 .subtitle {
     flex: 100%;
-    text-align: center;
+    text-align: center!important;
     color: #5c5d78;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 40px !important;
     line-height: 47px;
     margin-top: 50px !important;
     margin-bottom: 50px;
@@ -21188,11 +21183,7 @@ input[type="submit"].modal-close {
     width: 100%;
 }
 
-.our_better_icons-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-}
+ 
 
 .our_better_icons-item {
     text-align: center;
@@ -30125,21 +30116,15 @@ a.bred {
     background-color: #F6F9FE;
 }
 .megamenu {
-    background: #fff;
+   
     width: 1123px;
-    padding: 30px;
-    box-shadow: 3px 10px 30px rgb(0 0 0 / 0.1);
-    height: 500px;
+
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
 
-.wr {
-    display: none;
-    position: absolute;
-    left: 0;
-}
+
 
 .second-menu li:hover>.wr {
     display: block!important;
@@ -30167,7 +30152,7 @@ a.bred {
 }
 
 .megamenu .col ul li {
-    width: 100%;
+    width: 100%;    line-height: 120%;
 }
 
 .megamenu .col ul li a {
