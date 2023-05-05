@@ -11138,9 +11138,7 @@ h2.acc-title {
     box-sizing: border-box;
 }
 
-.select-wrapper .caret {
-    top: -9px;
-}
+
 
 .order_st {
     position: relative;
@@ -11589,7 +11587,8 @@ h2.acc-title {
 }
 
 .acc-btn {
-    border-radius: 2px;
+    border-radius: 3px;
+    white-space: nowrap;
 }
 
 .cardware.list {
@@ -29778,7 +29777,6 @@ a.bred {
     color: #474D9B;
     font-weight: bold;
     text-transform: none;
-    line-height: 38px;
     background: rgba(221, 223, 241, 0.54);
     border: 1px solid #DDDFF1;
     border-radius: 3px;
@@ -29809,7 +29807,7 @@ a.bred {
 }
 
 .way-list .tabs a.active {
-    background: #474D9B;
+    background: #474D9B !important;
     color: #fff !important;
     cursor: default;
     border-radius: 3px;
@@ -30424,19 +30422,101 @@ a.bred {
 
 div.more_links {
     right: 20px;
-    top: 40px; position: absolute;
+    top: 40px;
+    position: absolute;
 }
 
 .more_links .dropdown-trigger {
     color: #494f9d;
     font-weight: 500;
-   
+
 }
-.more_links .dropdown-content{    width: 200px!important;
-    top: 34px!important;
+
+.more_links .dropdown-content {
+    width: 200px !important;
+    top: 34px !important;
     border: 1px solid #cccccc;
     border-radius: 10px;
-    padding: 20px 0 10px;}
-    .more_links .dropdown-content li{
-        float: left !important;
-        margin-bottom: 8px;}
+    padding: 20px 0 10px;
+}
+
+.more_links .dropdown-content li {
+    float: left !important;
+    margin-bottom: 8px;
+}
+
+.card-data {
+    margin-top: 20px;
+    border: 1px solid #CECAE0;
+    background-color: #F7F6FC;
+    padding: 40px;position: relative;
+    margin-right: 30px;
+}
+.card-data .not_work {    color: #474D9B;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    padding-left: 15px;
+    background: url(../images/lock2.svg) no-repeat left center;
+}
+.card-data p span{font-size: 12px;}.card-data p a{font-size: 12px; color:#474D9B; text-decoration: underline; font-weight: bold;}
+.card-data .select-wrapper .select-dropdown{margin-bottom: 0px!important; height: 30px;}
+.card-data .select-wrapper{max-width: 60px; margin-left: 15px;border: 1px solid #CDCAE0!important; background-color: #fff!important; }
+.card-data .col{ flex:50%; display: flex;       justify-content: flex-start; flex-wrap: nowrap;padding-right: 10px;}
+.card_name {
+    color: #474D9B
+}
+
+.card-data .row {
+    margin-bottom: 10px;
+}
+
+.card_limit {
+    color: #2B2D43;
+    background: #EFF0F9;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: -20px;
+}
+
+.acc-btn.limit {
+    background-image: url(../images/limit.svg);
+    line-height: 290%;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    padding-right: 50px;
+}
+
+.acount-item_body {
+    position: relative;
+}
+
+.acount-item_body .lock {
+    color: #474D9B;
+    font-size: 14px;
+    right: 20px;
+    top: 10px;
+    position: absolute;
+    background: url(../images/lock.svg) no-repeat right center;
+    padding-right: 20px;
+}
+.addlimit{ box-sizing: border-box; max-width: 420px;}
+.addlimit form{    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;}
+    .addlimit form label{ color: #444444;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }.addlimit .modal-content h4{margin-bottom: 5px;}
+    .addlimit form input{    box-sizing: border-box;    height: 50px;}
+    .addlimit form  .blue{background: #474D9B; color:#fff; height: 60px;}
+
+.data-order{text-align: right;
+    padding-right: 28px;
+    padding-top: 20px;}
+.data-order p{}
+.data-order .pay{    height: 50px;
+    line-height: 50px; min-width: 100px;    margin-right: 0px;
+    padding-left: 50px; background-image: url(../images/pay.svg)!important; background-position: 10px center!important; background-repeat: no-repeat!important;
+}
