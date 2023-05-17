@@ -11148,17 +11148,6 @@ h2.acc-title {
     display: block;
 }
 
-.order_st ul:after {
-    content: "";
-    border-left: 1px solid #ccc;
-    position: absolute;
-    width: 1px;
-    left: 38px;
-    top: 43px;
-    height: 200px;
-    z-index: -1;
-}
-
 .order_st ul li {
     padding-bottom: 10px;
     margin: 0;
@@ -29860,7 +29849,35 @@ a.bred {
     font-weight: bold;
 }
 
-.row p span {}
+.order-title {
+    border-bottom: 1px solid #9194C3;
+    margin-left: 7px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.order-title .order-print {
+    font-size: 14px;
+    color: #474D9B;
+    line-height: 36px;
+    font-weight: bold;padding-left: 34px;
+    background: url(../images/blue_print.svg) no-repeat left center;
+}
+
+.item.case .prod-title p {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.item.case .prod-title span {
+    color: #A1A1A1;
+    font-size: 14px;
+    margin-right: 25px;
+}
 
 .print,
 .social {
@@ -30449,20 +30466,51 @@ div.more_links {
     margin-top: 20px;
     border: 1px solid #CECAE0;
     background-color: #F7F6FC;
-    padding: 40px;position: relative;
+    padding: 40px;
+    position: relative;
     margin-right: 30px;
 }
-.card-data .not_work {    color: #474D9B;
+
+.card-data .not_work {
+    color: #474D9B;
     position: absolute;
     top: 15px;
     right: 30px;
     padding-left: 15px;
     background: url(../images/lock2.svg) no-repeat left center;
 }
-.card-data p span{font-size: 12px;}.card-data p a{font-size: 12px; color:#474D9B; text-decoration: underline; font-weight: bold;}
-.card-data .select-wrapper .select-dropdown{margin-bottom: 0px!important; height: 30px;}
-.card-data .select-wrapper{max-width: 60px; margin-left: 15px;border: 1px solid #CDCAE0!important; background-color: #fff!important; }
-.card-data .col{ flex:50%; display: flex;       justify-content: flex-start; flex-wrap: nowrap;padding-right: 10px;}
+
+.card-data p span {
+    font-size: 12px;
+}
+
+.card-data p a {
+    font-size: 12px;
+    color: #474D9B;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-data .select-wrapper .select-dropdown {
+    margin-bottom: 0px !important;
+    height: 30px;
+}
+
+.card-data .select-wrapper {
+    max-width: 60px;
+    margin-left: 15px;
+    border: 1px solid #CDCAE0 !important;
+    background-color: #fff !important;
+}
+
+.card-data .col {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+}
+
 .card_name {
     color: #474D9B
 }
@@ -30501,22 +30549,54 @@ div.more_links {
     background: url(../images/lock.svg) no-repeat right center;
     padding-right: 20px;
 }
-.addlimit{ box-sizing: border-box; max-width: 420px;}
-.addlimit form{    flex-direction: column;
-    padding: 30px;
-    box-sizing: border-box;}
-    .addlimit form label{ color: #444444;
-        font-size: 16px;
-        margin-bottom: 5px;
-    }.addlimit .modal-content h4{margin-bottom: 5px;}
-    .addlimit form input{    box-sizing: border-box;    height: 50px;}
-    .addlimit form  .blue{background: #474D9B; color:#fff; height: 60px;}
 
-.data-order{text-align: right;
+.addlimit {
+    box-sizing: border-box;
+    max-width: 420px;
+}
+
+.addlimit form {
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.addlimit form label {
+    color: #444444;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.addlimit .modal-content h4 {
+    margin-bottom: 5px;
+}
+
+.addlimit form input {
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.addlimit form .blue {
+    background: #474D9B;
+    color: #fff;
+    height: 60px;
+}
+
+.data-order {
+    text-align: right;
     padding-right: 28px;
-    padding-top: 20px;}
-.data-order p{}
-.data-order .pay{    height: 50px;
-    line-height: 50px; min-width: 100px;    margin-right: 0px;
-    padding-left: 50px; background-image: url(../images/pay.svg)!important; background-position: 10px center!important; background-repeat: no-repeat!important;
+    padding-top: 20px;
+}
+
+.data-order p {}
+
+.data-order .pay {
+    height: 50px;
+    line-height: 50px;
+    min-width: 100px;
+    margin-right: 0px;
+    padding-left: 50px;
+    background-image: url(../images/pay.svg) !important;
+    background-position: 10px center !important;
+    background-repeat: no-repeat !important;
 }
