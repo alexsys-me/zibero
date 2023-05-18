@@ -28927,12 +28927,12 @@ input.acc-info-product.input.acc-info-product__text {
     color: #474D9B;
     font-weight: 500;
     border: 1px solid #C0C2E1;
-    background: #fff url(../img/qrcode.svg) no-repeat 20px center;
+    background: #fff ;
     height: 40px;
     width: 230px;
     border-radius: 2px;
 }
-
+.item-events-treck button img{margin-right: 10px;}
 .item-events-treck button:hover {
     background-color: #C0C2E1;
 }
