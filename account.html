@@ -512,43 +512,37 @@
 					<div class="col first"><span>Номер мобильного телефона</span>
 						<p>+7 (988) 404-26-37</p>
 					</div>
-					<div class="col"><a href="#change-phone" class="modal-trigger">Изменить
-							телефон</a>
-					</div>
-					<div class="col"><span><i>Изменить номер мобильного телефона можно не более 2-х раз в сутки.</i></span>
-					</div>
 					<div class="col">
-						<div id="change-phone" class="modal">
-							<h3>Изменение номера телефона</h3>
-							<form action="" class="whiteform modal-content">
-								<input type="text" class="phone" placeholder="Телефон*">
-
-								<a href="#verifi-phone" id="link-modal" class="btn blue modal-trigger">Изменить</a>
-							</form>
-						</div>
-						<div id="verifi-phone" class="modal">
-							<center style="font-size: 16px;">Мы отправили SMS с кодом на номер <strong>+789909023423</strong>
-							</center>
-							<form action="" class="whiteform">
-								<input type="text" placeholder="Код из sms*">
-								<input type="submit" class="btn blue" value="Потвердить">
-								<br>
-								<br>
-								<center> <span>Получить новый код можно через 1:37</span> </center>
-
-
-							</form>
-						</div>
+						<a href="#change-phone" class="modal-trigger">Изменить телефон</a>
+						<form action="" class="edit-data">
+							<div class="inline">
+								<input type="text" placeholder="+7 (___) ___-__-__">
+								<input type="submit" value="Отправить код">
+							</div>
+							<div class="inline">
+								<input type="text" placeholder="Введите код поверждения">
+								<input type="submit" value="Потвердить">
+							</div>
+						</form>
 					</div>
+			
+					
 				</div>
 
 				<div class="grey-row">
 					<div class="col first"><span>Адрес электронной почты</span>
 						<p>alexsysme@yandex.ru</p>
+						
 					</div>
-					<div class="col"><a href="#">Изменить почту</a></div>
-					<div class="col"><span></span></div>
-					<div class="col"></div>
+					<div class="col"><a href="#">Изменить почту</a>
+						<form action="" class="edit-data">
+							<div class="inline">
+								<input type="text" placeholder="Введите почту">
+								<input type="submit" value="Сохранить">
+							</div>
+						</form>
+					</div>
+		
 				</div>
 
 
@@ -557,29 +551,18 @@
 					<div class="col first"><span>Пароль</span>
 						<p>******</p>
 					</div>
-					<div class="col"><a href="javascript:;">Сменить пароль</a></div>
-					<div class="col"><span><i>Здесь Вы можете изменить свой пароль для входа в личный кабинет</i></span>
+					<div class="col"><a href="javascript;">Сменить пароль</a>
+						<form action="" class="edit-data">
+							<input type="text" placeholder="Старый пароль">
+							<div class="inline">
+								<input type="text" placeholder="Новый пароль">
+								<input type="submit" value="Сохранить">
+							</div>
+						</form>
 					</div>
-					<div class="col"></div>
+					 
 				</div>
-				<div class="grey-row" style="display:none;" id="form_password">
-					<form>
-						<div class="col s12">
-							<div class="row">
-								<label>Старый пароль:<b class="red"> *</b></label><input type="password" name="pass_old">
-							</div>
-							<div class="row">
-								<label>Новый пароль:<b class="red"> *</b></label><input type="password" name="pass1">
-							</div>
-							<div class="row">
-								<label>Повторите новый пароль:<b class="red"> *</b></label><input type="password" name="pass2">
-							</div>
-							<div class="row">
-								<input name="dataPassForm" class="button" type="submit" value="Сохранить">
-							</div>
-						</div>
-					</form>
-				</div>
+				 
 
 
 
@@ -591,8 +574,15 @@
 					<div class="col">
 						<p>Захаров Алексей Валерьевич</p>
 					</div>
-					<div class="col"><a href="#">Изменить данные</a></div>
-					<div class="col"></div>
+					<div class="col"><a href="#">Изменить данные</a>
+						<form action="" class="edit-data">
+							<div class="inline">
+								<input type="text" placeholder="Ваше ФИО">
+								<input type="submit" value="Сохранить">
+							</div>
+						</form>
+					</div>
+				
 				</div>
 				<div class="grey-row">
 					<div class="col first">
@@ -601,8 +591,15 @@
 					<div class="col">
 						<p>05.02.1985</p>
 					</div>
-					<div class="col"><a href="#">Изменить данные</a></div>
-					<div class="col"></div>
+					<div class="col"><a href="#">Изменить данные</a>
+						<form action="" class="edit-data">
+							<div class="inline">
+								<input type="text" placeholder="05.02.1985">
+								<input type="submit" value="Сохранить">
+							</div>
+						</form>
+					</div>
+			
 				</div>
 				<div class="grey-row">
 					<div class="col first">
@@ -612,7 +609,7 @@
 						<p>Мужской</p>
 					</div>
 					<div class="col"><a href="#">Изменить данные</a></div>
-					<div class="col"></div>
+				
 				</div>
 				<div class="acc-title">Публичные данные</div>
 				<div class="grey-row">
