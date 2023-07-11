@@ -5025,7 +5025,7 @@ header .select-wrapper .caret {
 .basket-shop .basket-string .table .row-string .total-summ p.special-sum:before {
     content: url(../images/smallgerb.png);
     position: absolute;
-    right: -34px;
+    right: -52px;
     top: -17px;
 }
 
@@ -7168,7 +7168,7 @@ a.tarif:before {
 .construct form {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    
 }
 
 .construct form .legend {
@@ -31352,7 +31352,11 @@ div.more_links {
     align-items: center;
     padding-top: 20px;
 }
-.popap_window.add_review .title_prod{ display: flex;}
+
+.popap_window.add_review .title_prod {
+    display: flex;
+}
+
 .popap_window.add_review .form_row .btn {
     border-radius: 5px;
     max-width: 350px;
@@ -31427,35 +31431,48 @@ div.more_links {
     padding-bottom: 20px;
     max-width: 70%;
 }
+
 .rating-result {
-	display: inline-block;
-	font-size: 0;
+    display: inline-block;
+    font-size: 0;
 }
+
 .rating-result span {
-	padding: 0;
-	font-size: 32px;
-	margin: 0 3px;
-	line-height: 1;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
 }
-.rating-result > span:before {
-	content: '★';
+
+.rating-result>span:before {
+    content: '★';
 }
-.rating-result > span.active {
-	color: gold;
-	text-shadow: 1px 1px #c60;
+
+.rating-result>span.active {
+    color: gold;
+    text-shadow: 1px 1px #c60;
 }
+
 .popap_window.add_review h3 {
     color: #525268;
     font-size: 18px;
     text-align: left;
-    font-weight: 600;float: left;
+    font-weight: 600;
+    float: left;
     padding-bottom: 20px;
 }
-.popap_window.add_review .rating-area{ margin-bottom: 30px; margin-left: -50px;}
+
+.popap_window.add_review .rating-area {
+    margin-bottom: 30px;
+    margin-left: -50px;
+}
+
 .popap_window.add_review img {
-    position: absolute;right: 30px; top:20px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
     width: 150px;
 }
 
@@ -31613,4 +31630,43 @@ div.more_links {
     font-family: roboto;
     color: #B3B3B3;
 }
-.desc-order .blue{ border-radius: 3px!important; line-height:50px; color:#fff!important}.desc-order .blue img{margin-top: 5px;}
+
+.desc-order .blue {
+    border-radius: 3px !important;
+    line-height: 50px;
+    color: #fff !important
+}
+
+.desc-order .blue img {
+    margin-top: 5px;
+}
+
+.megatotal {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.main-total.toclab,
+.main-total.toclab p {
+    color: #ff3843 !important;
+    font-size: 18px !important;
+}
+
+.min_order {
+    color: #fff;
+    background: #ff3843;
+    padding: 4px 5px 0px;
+}
+.select_dostavky{padding: 10px 20px;}
+.tovar_select{ display: flex; padding-top: 20px; width: 100%;}
+.tovar_select .img-wrapper{height: 120px; border: 1px solid #ccc; margin-bottom: 15px; margin-right: 10px;
+    overflow: hidden;}
+.tovar_select .img-wrapper img{border:none!important}
+
+.date-dostavky{
+    display: flex;
+}
+.date-dostavky input[type="date"]{ min-width: 200px;}
+.date-dostavky input{border: 1px solid #ccc;
+    margin-right: 15px;}
