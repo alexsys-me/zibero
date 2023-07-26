@@ -31747,3 +31747,8 @@ div.more_links {
     height: 50px;
     line-height: 50px;
 }
+
+.filters.collapsible .collapsible-body.filters-4lvl {
+    padding-bottom: 00px;
+    padding-left: 40px;
+  }
