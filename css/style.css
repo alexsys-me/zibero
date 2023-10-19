@@ -1937,7 +1937,7 @@ header .search .select-wrapper .dropdown-content {
 .item-card .left-col .preview .modal-trigger:before {
     display: block;
     position: absolute;
-    content: 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ';
+    content: 'X';
     left: 0;
     top: 0;
     right: 0;
@@ -1998,7 +1998,6 @@ header .search .select-wrapper .dropdown-content {
     overflow: hidden;
     display: block;
 }
-
 .item-card .left-col .tabs .tab a.active {
     border: 2px solid #8a8cbb;
 }
@@ -3840,7 +3839,7 @@ header .superhead {
 
 header {
     position: relative;
-    z-index: 92;
+    z-index: 999;
 }
 
 #bonus {
@@ -6998,7 +6997,6 @@ header+.company-data {
 .smallsize .sh.hit {
     background: #ff3843;
 }
-
 .smallsize .sh.sn {
     background: #7c7fb3;
 }
@@ -9998,7 +9996,6 @@ h1.maintitle span {
     font-size: 30px;
     line-height: 35px;
 }
-
 .send-gift h4 span {
     font-size: 15px;
     line-height: 18px;
@@ -10438,9 +10435,18 @@ h1.maintitle span {
     padding: 10px 20px;
     margin-bottom: 15px;
     background: #eff0f9;
-    border: 1px solid #d2d4fb;
+    border: 1px solid #d2d4fb;position: relative;
 }
-
+.sub-grey .icon{ 
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    display: block;
+    background-size: cover!important;
+    background: url(../images/edit.svg) no-repeat center center;
+}
+.sub-grey .set-icon{    margin-top: -20px;    float: right;display: flex;}
+.sub-grey .icon.close{ background: url(../images/close.svg) no-repeat center center;}
 .sub-grey p {
     margin: 0;
 }
@@ -11660,7 +11666,7 @@ h2.acc-title {
 }
 
 .cardware.list.new:after {
-    content: 'РЅРѕРІРёРЅРєР°';
+    content: 'new';
     background: #ff3843;
     position: absolute;
     display: block;
@@ -13989,7 +13995,6 @@ header .search .select-wrapper .dropdown-content li span {
     flex-wrap: wrap;
     align-items: flex-start;
 }
-
 .item-card .right-col {
     display: flex;
     flex-wrap: wrap;
@@ -18989,7 +18994,6 @@ header+.company-data {
     justify-content: space-between;
     display: flex;
 }
-
 .cardware {
     border: 1px solid #e6e6e6;
     border-radius: 5px;
@@ -19989,7 +19993,6 @@ a.tarif:before {
 .date-field:before {
     content: "\f113";
 }
-
 .time-field:before {
     content: "\f112";
 }
@@ -21209,7 +21212,7 @@ input[type="submit"].modal-close {
 }
 
 .our_better_item {
-    text-align: РЎРѓenter;
+    text-align: center;
     flex: 20%;
     color: #5c5d78;
     max-width: 20%;
@@ -22989,7 +22992,6 @@ a.gift:hover {
 }
 
 .singlsum span {}
-
 .basket-string .singlsum input.select-dropdown {
     border: 1px solid #a7a7a7;
     padding-left: 10px;
@@ -24318,15 +24320,15 @@ a.acc-addon {
     overflow-y: auto;
     padding: 0px 0px 0px 0px;
     scrollbar-color: #b8b8b8 #e5e5e5;
-    /* Р’В«РЎвЂ Р Р†Р ВµРЎвЂљ Р С—Р С•Р В»Р В·РЎС“Р Р…Р С”Р В°Р’В» Р’В«РЎвЂ Р Р†Р ВµРЎвЂљ Р С—Р С•Р В»Р С•РЎРѓРЎвЂ№ РЎРѓР С”РЎР‚Р С•Р В»Р В»Р В±Р В°РЎР‚Р В°Р’В» */
+    /* Р вЂ™Р’В«Р РЋРІР‚ Р  Р вЂ Р  Р’ВµР РЋРІР‚С™ Р  РЎвЂ”Р  РЎвЂўР  Р’В»Р  Р’В·Р РЋРЎвЂњР  Р вЂ¦Р  РЎвЂќР  Р’В°Р вЂ™Р’В» Р вЂ™Р’В«Р РЋРІР‚ Р  Р вЂ Р  Р’ВµР РЋРІР‚С™ Р  РЎвЂ”Р  РЎвЂўР  Р’В»Р  РЎвЂўР РЋР С“Р РЋРІР‚в„– Р РЋР С“Р  РЎвЂќР РЋР вЂљР  РЎвЂўР  Р’В»Р  Р’В»Р  Р’В±Р  Р’В°Р РЋР вЂљР  Р’В°Р вЂ™Р’В» */
     scrollbar-width: auto;
-    /* РЎвЂљР С•Р В»РЎвЂ°Р С‘Р Р…Р В° */
+    /* Р РЋРІР‚С™Р  РЎвЂўР  Р’В»Р РЋРІР‚В°Р  РЎвЂР  Р вЂ¦Р  Р’В° */
 }
 
 .point-list-v3::-webkit-scrollbar,
 .vosrat-3-tab_point-info.point-info::-webkit-scrollbar {
     width: 13px;
-    /* РЎв‚¬Р С‘РЎР‚Р С‘Р Р…Р В° Р Т‘Р В»РЎРЏ Р Р†Р ВµРЎР‚РЎвЂљР С‘Р С”Р В°Р В»РЎРЉР Р…Р С•Р С–Р С• РЎРѓР С”РЎР‚Р С•Р В»Р В»Р В° */
+    /* Р РЋРІвЂљВ¬Р  РЎвЂР РЋР вЂљР  РЎвЂР  Р вЂ¦Р  Р’В° Р  РўвЂР  Р’В»Р РЋР РЏ Р  Р вЂ Р  Р’ВµР РЋР вЂљР РЋРІР‚С™Р  РЎвЂР  РЎвЂќР  Р’В°Р  Р’В»Р РЋР Р‰Р  Р вЂ¦Р  РЎвЂўР  РЎвЂ“Р  РЎвЂў Р РЋР С“Р  РЎвЂќР РЋР вЂљР  РЎвЂўР  Р’В»Р  Р’В»Р  Р’В° */
     background-color: #e5e5e5;
     border-radius: 5px;
 }
@@ -25591,15 +25593,15 @@ button.acc-return_btn {
     overflow-y: auto;
     height: 100%;
     scrollbar-color: #c9cbe9 #e9e9e9;
-    /* Р’В«РЎвЂ Р Р†Р ВµРЎвЂљ Р С—Р С•Р В»Р В·РЎС“Р Р…Р С”Р В°Р’В» Р’В«РЎвЂ Р Р†Р ВµРЎвЂљ Р С—Р С•Р В»Р С•РЎРѓРЎвЂ№ РЎРѓР С”РЎР‚Р С•Р В»Р В»Р В±Р В°РЎР‚Р В°Р’В» */
+    /* Р вЂ™Р’В«Р РЋРІР‚ Р  Р вЂ Р  Р’ВµР РЋРІР‚С™ Р  РЎвЂ”Р  РЎвЂўР  Р’В»Р  Р’В·Р РЋРЎвЂњР  Р вЂ¦Р  РЎвЂќР  Р’В°Р вЂ™Р’В» Р вЂ™Р’В«Р РЋРІР‚ Р  Р вЂ Р  Р’ВµР РЋРІР‚С™ Р  РЎвЂ”Р  РЎвЂўР  Р’В»Р  РЎвЂўР РЋР С“Р РЋРІР‚в„– Р РЋР С“Р  РЎвЂќР РЋР вЂљР  РЎвЂўР  Р’В»Р  Р’В»Р  Р’В±Р  Р’В°Р РЋР вЂљР  Р’В°Р вЂ™Р’В» */
     scrollbar-width: auto;
-    /* РЎвЂљР С•Р В»РЎвЂ°Р С‘Р Р…Р В° */
+    /* Р РЋРІР‚С™Р  РЎвЂўР  Р’В»Р РЋРІР‚В°Р  РЎвЂР  Р вЂ¦Р  Р’В° */
     padding-top: 15px;
 }
 
 .filters.collapsible.filters-lvl1::-webkit-scrollbar {
     width: 6px;
-    /* РЎв‚¬Р С‘РЎР‚Р С‘Р Р…Р В° Р Т‘Р В»РЎРЏ Р Р†Р ВµРЎР‚РЎвЂљР С‘Р С”Р В°Р В»РЎРЉР Р…Р С•Р С–Р С• РЎРѓР С”РЎР‚Р С•Р В»Р В»Р В° */
+    /* Р РЋРІвЂљВ¬Р  РЎвЂР РЋР вЂљР  РЎвЂР  Р вЂ¦Р  Р’В° Р  РўвЂР  Р’В»Р РЋР РЏ Р  Р вЂ Р  Р’ВµР РЋР вЂљР РЋРІР‚С™Р  РЎвЂР  РЎвЂќР  Р’В°Р  Р’В»Р РЋР Р‰Р  Р вЂ¦Р  РЎвЂўР  РЎвЂ“Р  РЎвЂў Р РЋР С“Р  РЎвЂќР РЋР вЂљР  РЎвЂўР  Р’В»Р  Р’В»Р  Р’В° */
     background-color: #e9e9e9;
 }
 
@@ -27989,7 +27991,6 @@ input.acc-info-product.input.acc-info-product__text {
     display: flex;
     align-items: center;
 }
-
 .s3 .more-data li.more.stat-1_2:after {
     top: 16px;
 }
@@ -28670,11 +28671,11 @@ input.acc-info-product.input.acc-info-product__text {
 }
 
 .my-case {
-    display: flex;
+    display: flex;    FLEX-WRAP: WRAP;
 }
 
 .my-case-item {
-    max-width: 30%;
+    max-width: 29%;
     flex: 30%;
     background: #FBFBFD;
     border: 1px solid #DDDFF1;
@@ -30666,7 +30667,7 @@ div.more_links {
 }
 
 .apteka-menu {
-    z-index: 9999;
+    z-index: 998;
 }
 
 .recept {
