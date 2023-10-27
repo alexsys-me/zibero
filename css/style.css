@@ -7312,15 +7312,17 @@ a.tarif:before {
     background: #efefef;
     top: 46px !important;
 }
+#ord-common .select-wrapper .select-dropdown{    
+    width: 100%!important;
+    left: 0!important;}
 
 .construct .dropdown-content li span {
-    color: #494c5b !important;
+    color: #494c5b !important;   
+    line-height: 130%!important;
     padding: 5px 16px !important;
 }
 
-.construct .dropdown-content li {
-    height: 30px;
-}
+ 
 
 .construct .select-dropdown:focus {
     border: none !important
@@ -19339,9 +19341,7 @@ a.tarif:before {
     padding: 5px 16px !important;
 }
 
-.construct .dropdown-content li {
-    height: 30px;
-}
+ 
 
 .construct .select-dropdown:focus {
     border: none !important;
@@ -27480,7 +27480,7 @@ input.acc-info-product.input.acc-info-product__text {
 
 .header__container {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 0 auto;width: 100%;
 }
 
 .header__head {}
@@ -31753,3 +31753,19 @@ div.more_links {
     padding-bottom: 00px;
     padding-left: 40px;
   }
+#newaddressh{text-align: left;
+    font-size: 24px;
+    color: #3d3d3e;
+    font-weight: bold;}
+  #newaddress{    border: 1px dotted #fafafc!important;
+    background: #fafafc;
+    padding: 30px;}
+
+    #newaddress .legend{    display: flex;max-width:100%!important;
+        flex-wrap: wrap;}
+
+        #newaddress .legend .input-field{      margin-bottom: 4px!important;  flex: 49%;}#newaddress .legend .input-field input{    border: 1px solid #d2d4fb!important;
+            font-size: 14px;
+            padding: 12px 15px;
+            color: #959daf;
+            width: 100%;}
